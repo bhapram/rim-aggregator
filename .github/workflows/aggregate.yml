@@ -1,0 +1,39 @@
+name: RIM feed aggregator
+
+on:
+  schedule:
+    - cron: "15 * * * *"     # hourly at :15 UTC — keeps a fresh rolling window
+  workflow_dispatch: {}       # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write             # allow the job to commit feed_items.json back to the repo
+
+concurrency:
+  group: rim-aggregator
+  cancel-in-progress: false
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run aggregator
+        run: python aggregator.py
+
+      - name: Commit updated feed_items.json
+        run: |
+          git config user.name  "rim-bot"
+          git config user.email "rim-bot@users.noreply.github.com"
+          git add output/feed_items.json
+          git commit -m "Update feed_items.json ($(date -u +%FT%TZ))" || echo "no changes to commit"
+          git push

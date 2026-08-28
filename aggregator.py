@@ -38,11 +38,11 @@ except Exception:  # pragma: no cover
 FEEDS_CSV      = "feeds.csv"
 OUTPUT         = "output/feed_items.json"
 WINDOW_HOURS   = 30      # rolling window kept in the file; RIM narrows to 4h / 24h
-MAX_WORKERS    = 16      # parallel feed fetches
+MAX_WORKERS    = 24      # parallel feed fetches
 PER_FEED_CAP   = 40      # max items kept per feed
 TOTAL_CAP      = 600     # max items in the output file (keeps it WebFetch-friendly)
-FETCH_TIMEOUT  = 20      # seconds per HTTP request
-DISCOVERY_CAP  = 6       # max candidate feed URLs to try when auto-discovering
+FETCH_TIMEOUT  = 8       # seconds per HTTP request (fail slow hosts fast)
+DISCOVERY_CAP  = 3       # max candidate feed URLs to try when auto-discovering
 KEYWORD_FILTER = True    # True = keep only risk-relevant items; False = keep all recent
 
 USER_AGENT = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -85,7 +85,9 @@ HREF_RE = re.compile(r'href=["\']([^"\']+)["\']', re.I)
 # ---------------------------------------------------------------- http session
 def build_session():
     s = requests.Session()
-    retry = Retry(total=2, connect=2, read=2, backoff_factor=0.6,
+    # Retry ONLY on transient bad-status responses (fast). Do NOT retry connect/read
+    # timeouts (connect=0, read=0) — those are the slow hosts; fail them fast instead.
+    retry = Retry(total=1, connect=0, read=0, backoff_factor=0.3,
                   status_forcelist=[429, 500, 502, 503, 504], allowed_methods=["GET"])
     adapter = HTTPAdapter(max_retries=retry, pool_connections=MAX_WORKERS, pool_maxsize=MAX_WORKERS)
     s.mount("https://", adapter)

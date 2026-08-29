@@ -37,3 +37,8 @@ jobs:
           git add output/feed_items.json
           git commit -m "Update feed_items.json ($(date -u +%FT%TZ))" || echo "no changes to commit"
           git push
+
+      - name: Purge jsDelivr cache
+        if: always()
+        run: |
+          curl -sf "https://purge.jsdelivr.net/gh/bhapram/rim-aggregator@main/output/feed_items.json" || true

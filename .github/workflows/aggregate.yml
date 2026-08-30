@@ -2,7 +2,7 @@ name: RIM feed aggregator
 
 on:
   schedule:
-    - cron: "15 * * * *"     # hourly at :15 UTC — keeps a fresh rolling window
+    - cron: "*/30 * * * *"     # every 30 minutes UTC, keeps a fresh rolling window
   workflow_dispatch: {}       # lets you run it manually from the Actions tab
 
 permissions:

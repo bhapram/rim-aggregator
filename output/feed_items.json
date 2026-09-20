@@ -1,105 +1,24 @@
 {
- "generated_at": "2026-09-20T21:44:54.876119+00:00",
+ "generated_at": "2026-09-20T23:47:14.427638+00:00",
  "window_hours": 30,
  "keyword_filter": true,
  "feeds_total": 491,
  "feeds_ok": 284,
  "feeds_failed": 207,
- "feeds_recovered": 2,
+ "feeds_recovered": 1,
  "item_count": 600,
  "recovered_feeds": [
-  {
-   "source": "Cinco Dias",
-   "country": "Spain",
-   "old_url": "https://cincodias.elpais.com/rss",
-   "new_url": "https://feeds.elpais.com/mrss-s/pages/ep/site/cincodias.elpais.com/portada"
-  },
   {
    "source": "Libertatea",
    "country": "Romania",
    "old_url": "https://www.libertatea.ro/rss",
-   "new_url": "https://www.libertatea.ro/feed/"
+   "new_url": "https://www.libertatea.ro/feed"
   }
  ],
  "failures": [
   {
-   "source": "Ilta-Sanomat",
-   "url": "https://www.is.fi/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Svenska Dagbladet",
-   "url": "https://www.svd.se/rss",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "RTE News",
-   "url": "https://www.rte.ie/news/rss/",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Eesti Paevaleht",
-   "url": "https://epl.delfi.ee/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Expressen",
-   "url": "https://www.expressen.se/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Eesti Ekspress",
-   "url": "https://ekspress.delfi.ee/rss",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Jornal de Noticias",
-   "url": "https://www.jn.pt/rss",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "Irish Mirror",
-   "url": "https://www.irishmirror.ie/rss",
-   "reason": "HTTP 202"
-  },
-  {
-   "source": "Publico",
-   "url": "https://www.publico.pt/rss",
-   "reason": "HTTP 202"
-  },
-  {
-   "source": "DR",
-   "url": "https://www.dr.dk/rss",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Delfi",
-   "url": "https://www.delfi.ee/rss",
-   "reason": "HTTP 404"
-  },
-  {
    "source": "Helsingin Sanomat",
    "url": "https://www.hs.fi/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "RTE Brainstorm",
-   "url": "https://www.rte.ie/brainstorm/rss/",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Aamulehti",
-   "url": "https://www.aamulehti.fi/rss",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "SIC Noticias",
-   "url": "https://sicnoticias.pt/rss",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "Kaleva",
-   "url": "https://www.kaleva.fi/rss",
    "reason": "no entries / not a feed"
   },
   {
@@ -108,14 +27,69 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Berlingske",
-   "url": "https://www.berlingske.dk/rss",
+   "source": "Svenska Dagbladet",
+   "url": "https://www.svd.se/rss",
    "reason": "HTTP 404"
   },
   {
-   "source": "Ekstra Bladet",
-   "url": "https://ekstrabladet.dk/rss",
+   "source": "Expressen",
+   "url": "https://www.expressen.se/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "Ilta-Sanomat",
+   "url": "https://www.is.fi/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "DR",
+   "url": "https://www.dr.dk/rss",
    "reason": "HTTP 404"
+  },
+  {
+   "source": "Irish Mirror",
+   "url": "https://www.irishmirror.ie/rss",
+   "reason": "HTTP 202"
+  },
+  {
+   "source": "Jornal de Noticias",
+   "url": "https://www.jn.pt/rss",
+   "reason": "HTTP 403"
+  },
+  {
+   "source": "RTE News",
+   "url": "https://www.rte.ie/news/rss/",
+   "reason": "HTTP 404"
+  },
+  {
+   "source": "Publico",
+   "url": "https://www.publico.pt/rss",
+   "reason": "HTTP 202"
+  },
+  {
+   "source": "Eesti Paevaleht",
+   "url": "https://epl.delfi.ee/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "Delfi",
+   "url": "https://www.delfi.ee/rss",
+   "reason": "HTTP 404"
+  },
+  {
+   "source": "RTE Brainstorm",
+   "url": "https://www.rte.ie/brainstorm/rss/",
+   "reason": "HTTP 404"
+  },
+  {
+   "source": "Eesti Ekspress",
+   "url": "https://ekspress.delfi.ee/rss",
+   "reason": "HTTP 404"
+  },
+  {
+   "source": "SIC Noticias",
+   "url": "https://sicnoticias.pt/rss",
+   "reason": "HTTP 403"
   },
   {
    "source": "Expresso",
@@ -123,24 +97,29 @@
    "reason": "HTTP 403"
   },
   {
+   "source": "Berlingske",
+   "url": "https://www.berlingske.dk/rss",
+   "reason": "HTTP 404"
+  },
+  {
+   "source": "Kaleva",
+   "url": "https://www.kaleva.fi/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "Ekstra Bladet",
+   "url": "https://ekstrabladet.dk/rss",
+   "reason": "HTTP 404"
+  },
+  {
    "source": "NZZ",
    "url": "https://www.nzz.ch/rss",
    "reason": "no entries / not a feed"
   },
   {
-   "source": "RND",
-   "url": "https://www.rnd.de/rss",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "Tages-Anzeiger",
-   "url": "https://www.tagesanzeiger.ch/rss",
+   "source": "Aamulehti",
+   "url": "https://www.aamulehti.fi/rss",
    "reason": "HTTP 404"
-  },
-  {
-   "source": "Politiken",
-   "url": "https://politiken.dk/rss",
-   "reason": "no entries / not a feed"
   },
   {
    "source": "Dagens Naeringsliv",
@@ -148,14 +127,29 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "TV2",
-   "url": "https://tv2.dk/rss",
+   "source": "Politiken",
+   "url": "https://politiken.dk/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "Handelsblatt",
+   "url": "https://www.handelsblatt.com/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "Tages-Anzeiger",
+   "url": "https://www.tagesanzeiger.ch/rss",
    "reason": "HTTP 404"
   },
   {
-   "source": "RTL",
-   "url": "https://www.rtl.lu/rss",
-   "reason": "no entries / not a feed"
+   "source": "RND",
+   "url": "https://www.rnd.de/rss",
+   "reason": "HTTP 403"
+  },
+  {
+   "source": "TV2",
+   "url": "https://tv2.dk/rss",
+   "reason": "HTTP 404"
   },
   {
    "source": "RUV",
@@ -168,6 +162,11 @@
    "reason": "HTTP 401"
   },
   {
+   "source": "Die Welt",
+   "url": "https://www.welt.de/feeds.rss",
+   "reason": "HTTP 404"
+  },
+  {
    "source": "Le Soir",
    "url": "https://www.lesoir.be/rss",
    "reason": "HTTP 403"
@@ -176,6 +175,11 @@
    "source": "Wales Online",
    "url": "https://www.walesonline.co.uk/rss",
    "reason": "HTTP 202"
+  },
+  {
+   "source": "RTL",
+   "url": "https://www.rtl.lu/rss",
+   "reason": "no entries / not a feed"
   },
   {
    "source": "The Economist",
@@ -188,19 +192,9 @@
    "reason": "HTTP 403"
   },
   {
-   "source": "Focus",
-   "url": "https://rss.focus.de/fol/XML/rss_folnews.xml",
-   "reason": "HTTP 404"
-  },
-  {
    "source": "Marianne",
    "url": "https://www.marianne.net/rss",
    "reason": "HTTP 405"
-  },
-  {
-   "source": "Parlamentni Listy",
-   "url": "http://www.parlamentnilisty.cz/export/rss.aspx",
-   "reason": "no entries / not a feed"
   },
   {
    "source": "Volksblatt",
@@ -218,8 +212,23 @@
    "reason": "HTTPSConnectionPool(host='feeds.24.com', port=443): Max retries exceeded with url: /articles/news24/TopStories/rss (Caus"
   },
   {
+   "source": "Focus",
+   "url": "https://rss.focus.de/fol/XML/rss_folnews.xml",
+   "reason": "HTTP 404"
+  },
+  {
    "source": "Liberation",
    "url": "https://www.liberation.fr/rss",
+   "reason": "HTTP 403"
+  },
+  {
+   "source": "Le Point",
+   "url": "https://www.lepoint.fr/rss",
+   "reason": "HTTP 403"
+  },
+  {
+   "source": "Le Parisien",
+   "url": "https://www.leparisien.fr/rss",
    "reason": "HTTP 403"
   },
   {
@@ -228,24 +237,14 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "El Periodico",
-   "url": "https://www.elperiodico.com/rss",
+   "source": "Cinco Dias",
+   "url": "https://cincodias.elpais.com/rss",
    "reason": "HTTP 404"
   },
   {
-   "source": "Handelsblatt",
-   "url": "https://www.handelsblatt.com/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Le Point",
-   "url": "https://www.lepoint.fr/rss",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "Sueddeutsche Zeitung",
-   "url": "https://www.sueddeutsche.de/rss/aktuell",
-   "reason": "no entries / not a feed"
+   "source": "El Periodico",
+   "url": "https://www.elperiodico.com/rss",
+   "reason": "HTTP 404"
   },
   {
    "source": "AllAfrica",
@@ -253,8 +252,8 @@
    "reason": "HTTP 404"
   },
   {
-   "source": "Le Figaro",
-   "url": "https://www.lefigaro.fr/rss",
+   "source": "Parlamentni Listy",
+   "url": "http://www.parlamentnilisty.cz/export/rss.aspx",
    "reason": "no entries / not a feed"
   },
   {
@@ -263,33 +262,13 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Fin24",
-   "url": "https://www.fin24.com/rss",
+   "source": "Le Figaro",
+   "url": "https://www.lefigaro.fr/rss",
    "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Le Parisien",
-   "url": "https://www.leparisien.fr/rss",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "Sunday Times",
-   "url": "https://www.timeslive.co.za/sunday-times/rss/",
-   "reason": "HTTP 404"
   },
   {
    "source": "TimesLIVE",
    "url": "https://www.timeslive.co.za/rss/",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Die Welt",
-   "url": "https://www.welt.de/feeds.rss",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Onet",
-   "url": "https://www.onet.pl/rss",
    "reason": "HTTP 404"
   },
   {
@@ -298,13 +277,38 @@
    "reason": "HTTP 403"
   },
   {
+   "source": "Sunday Times",
+   "url": "https://www.timeslive.co.za/sunday-times/rss/",
+   "reason": "HTTP 404"
+  },
+  {
+   "source": "Sueddeutsche Zeitung",
+   "url": "https://www.sueddeutsche.de/rss/aktuell",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "Fin24",
+   "url": "https://www.fin24.com/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "Onet",
+   "url": "https://www.onet.pl/rss",
+   "reason": "HTTP 404"
+  },
+  {
+   "source": "Frettabladid",
+   "url": "https://www.frettabladid.is/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
    "source": "Sloboden Pecat",
    "url": "https://slobodenpecat.mk/rss",
    "reason": "HTTP 403"
   },
   {
-   "source": "Frettabladid",
-   "url": "https://www.frettabladid.is/rss",
+   "source": "RTV Slovenija",
+   "url": "https://www.rtvslo.si/rss",
    "reason": "no entries / not a feed"
   },
   {
@@ -323,9 +327,14 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "RTV Slovenija",
-   "url": "https://www.rtvslo.si/rss",
-   "reason": "no entries / not a feed"
+   "source": "Antena M",
+   "url": "https://antenam.net/rss",
+   "reason": "HTTP 404"
+  },
+  {
+   "source": "Business Day",
+   "url": "https://www.businesslive.co.za/rss",
+   "reason": "HTTP 404"
   },
   {
    "source": "Malta Independent",
@@ -338,28 +347,18 @@
    "reason": "HTTP 403"
   },
   {
+   "source": "Finance",
+   "url": "https://www.finance.si/rss",
+   "reason": "HTTP 404"
+  },
+  {
    "source": "LB.ua",
    "url": "https://lb.ua/rss",
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Business Day",
-   "url": "https://www.businesslive.co.za/rss",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Antena M",
-   "url": "https://antenam.net/rss",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Qatar Tribune",
-   "url": "https://www.qatar-tribune.com/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "ANA",
-   "url": "https://www.ana.ad/rss/",
+   "source": "Il Sole 24 Ore",
+   "url": "https://www.ilsole24ore.com/rss",
    "reason": "no entries / not a feed"
   },
   {
@@ -373,14 +372,9 @@
    "reason": "HTTP 403"
   },
   {
-   "source": "Korrespondent",
-   "url": "http://k.img.com.ua/rss/ru/all_news2.0.xml",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Finance",
-   "url": "https://www.finance.si/rss",
-   "reason": "HTTP 404"
+   "source": "Qatar Tribune",
+   "url": "https://www.qatar-tribune.com/rss",
+   "reason": "no entries / not a feed"
   },
   {
    "source": "Gazeta Panorama",
@@ -388,19 +382,14 @@
    "reason": "HTTP 403"
   },
   {
-   "source": "Il Sole 24 Ore",
-   "url": "https://www.ilsole24ore.com/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
    "source": "The Peninsula",
    "url": "https://thepeninsulaqatar.com/rss",
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Al-Arab",
-   "url": "https://www.al-arab.com/rss",
-   "reason": "HTTP 404"
+   "source": "ANA",
+   "url": "https://www.ana.ad/rss/",
+   "reason": "no entries / not a feed"
   },
   {
    "source": "CNA",
@@ -423,9 +412,9 @@
    "reason": "HTTP 403"
   },
   {
-   "source": "KosovaPress",
-   "url": "https://www.kosovapress.com/rss",
-   "reason": "HTTP 403"
+   "source": "Al-Arab",
+   "url": "https://www.al-arab.com/rss",
+   "reason": "HTTP 404"
   },
   {
    "source": "The Times of Israel",
@@ -443,14 +432,14 @@
    "reason": "HTTP 403"
   },
   {
+   "source": "KosovaPress",
+   "url": "https://www.kosovapress.com/rss",
+   "reason": "HTTP 403"
+  },
+  {
    "source": "Qatar News Agency",
    "url": "https://www.qna.org.qa/rss",
    "reason": "HTTP 404"
-  },
-  {
-   "source": "TVM",
-   "url": "https://www.tvm.com.mt/rss",
-   "reason": "no entries / not a feed"
   },
   {
    "source": "Haaretz",
@@ -468,9 +457,14 @@
    "reason": "HTTP 403"
   },
   {
-   "source": "Channel 12",
-   "url": "https://12tv.co.il/rss",
-   "reason": "HTTPSConnectionPool(host='12tv.co.il', port=443): Max retries exceeded with url: /rss (Caused by NewConnectionError(\"HTT"
+   "source": "Blic",
+   "url": "https://www.blic.rs/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "TVM",
+   "url": "https://www.tvm.com.mt/rss",
+   "reason": "no entries / not a feed"
   },
   {
    "source": "The Standard",
@@ -478,9 +472,9 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Ynet",
-   "url": "https://www.ynet.co.il/rss",
-   "reason": "HTTP 404"
+   "source": "HRT",
+   "url": "https://hrt.hr/rss",
+   "reason": "no entries / not a feed"
   },
   {
    "source": "Hibapress",
@@ -493,13 +487,8 @@
    "reason": "HTTP 403"
   },
   {
-   "source": "Blic",
-   "url": "https://www.blic.rs/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Kathimerini",
-   "url": "https://www.kathimerini.com.cy/rss",
+   "source": "Ynet",
+   "url": "https://www.ynet.co.il/rss",
    "reason": "HTTP 404"
   },
   {
@@ -508,24 +497,29 @@
    "reason": "HTTPSConnectionPool(host='www.almassa.ma', port=443): Max retries exceeded with url: /rss (Caused by NameResolutionError"
   },
   {
+   "source": "Kathimerini",
+   "url": "https://www.kathimerini.com.cy/rss",
+   "reason": "HTTP 404"
+  },
+  {
    "source": "Le Matin",
    "url": "https://lematin.ma/rss",
    "reason": "no entries / not a feed"
   },
   {
-   "source": "HRT",
-   "url": "https://hrt.hr/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Interpressnews",
-   "url": "https://www.interpressnews.ge/rss",
-   "reason": "no entries / not a feed"
+   "source": "Channel 12",
+   "url": "https://12tv.co.il/rss",
+   "reason": "HTTPSConnectionPool(host='12tv.co.il', port=443): Max retries exceeded with url: /rss (Caused by NewConnectionError(\"HTT"
   },
   {
    "source": "Business Daily",
    "url": "https://www.businessdaily.co.ke/rss",
    "reason": "HTTPSConnectionPool(host='www.businessdaily.co.ke', port=443): Max retries exceeded with url: /rss (Caused by NameResolu"
+  },
+  {
+   "source": "The Guardian Nigeria",
+   "url": "https://guardian.ng/feed/",
+   "reason": "HTTP 403"
   },
   {
    "source": "Narodni",
@@ -538,14 +532,19 @@
    "reason": "HTTP 404"
   },
   {
+   "source": "The Cable",
+   "url": "https://www.thecable.ng/feed",
+   "reason": "HTTP 403"
+  },
+  {
    "source": "Al-Rai Kuwait",
    "url": "https://www.alraimedia.com/rss",
    "reason": "no entries / not a feed"
   },
   {
-   "source": "The Guardian Nigeria",
-   "url": "https://guardian.ng/feed/",
-   "reason": "HTTP 403"
+   "source": "Informer",
+   "url": "https://informer.rs/rss",
+   "reason": "no entries / not a feed"
   },
   {
    "source": "El Watan",
@@ -553,8 +552,8 @@
    "reason": "HTTP 400"
   },
   {
-   "source": "Informer",
-   "url": "https://informer.rs/rss",
+   "source": "Interpressnews",
+   "url": "https://www.interpressnews.ge/rss",
    "reason": "no entries / not a feed"
   },
   {
@@ -563,19 +562,14 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Kuwait Times",
-   "url": "https://www.kuwaittimes.com/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
    "source": "Al-Seyassah",
    "url": "https://www.al-seyassah.com/rss",
    "reason": "HTTP 404"
   },
   {
-   "source": "Le Buteur",
-   "url": "https://www.lebuteur.com/rss",
-   "reason": "HTTP 404"
+   "source": "Kuwait Times",
+   "url": "https://www.kuwaittimes.com/rss",
+   "reason": "no entries / not a feed"
   },
   {
    "source": "Tunisia News",
@@ -588,24 +582,9 @@
    "reason": "HTTP 404"
   },
   {
-   "source": "The Cable",
-   "url": "https://www.thecable.ng/feed",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "Al-Akhbar",
-   "url": "https://www.al-akhbar.com/rss",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "Assafir",
-   "url": "https://assafir.com/rss",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "L'Orient-Le Jour",
-   "url": "https://www.lorientlejour.com/rss",
-   "reason": "HTTP 404"
+   "source": "Echourouk",
+   "url": "https://www.echorouk.com/rss",
+   "reason": "no entries / not a feed"
   },
   {
    "source": "Al-Hiwar",
@@ -613,14 +592,29 @@
    "reason": "HTTP 404"
   },
   {
-   "source": "Echourouk",
-   "url": "https://www.echorouk.com/rss",
+   "source": "Al-Akhbar",
+   "url": "https://www.al-akhbar.com/rss",
+   "reason": "HTTP 403"
+  },
+  {
+   "source": "Al-Anba",
+   "url": "https://www.alanba.com.kw/rss",
    "reason": "no entries / not a feed"
+  },
+  {
+   "source": "L'Orient-Le Jour",
+   "url": "https://www.lorientlejour.com/rss",
+   "reason": "HTTP 404"
   },
   {
    "source": "The Daily Star",
    "url": "https://www.dailystar.com.lb/rss",
    "reason": "HTTP 403"
+  },
+  {
+   "source": "Assafir",
+   "url": "https://assafir.com/rss",
+   "reason": "HTTP 404"
   },
   {
    "source": "MTV Lebanon",
@@ -643,18 +637,33 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Ammon News",
-   "url": "https://www.ammonnews.net/rss",
-   "reason": "HTTP 403"
-  },
-  {
    "source": "Al-Joumhouria",
    "url": "https://www.aljoumhouria.com/rss",
    "reason": "HTTP 404"
   },
   {
+   "source": "Ammon News",
+   "url": "https://www.ammonnews.net/rss",
+   "reason": "HTTP 403"
+  },
+  {
    "source": "Al-Rai",
    "url": "https://www.alrai.com/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "Al-Wasat Libya",
+   "url": "https://www.alwasat.ly/rss",
+   "reason": "HTTP 404"
+  },
+  {
+   "source": "Al-Masdar Online",
+   "url": "https://almasdaronline.com/rss",
+   "reason": "HTTP 403"
+  },
+  {
+   "source": "Muscat Daily",
+   "url": "https://muscatdaily.com/rss",
    "reason": "no entries / not a feed"
   },
   {
@@ -663,19 +672,14 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Al-Masdar Online",
-   "url": "https://almasdaronline.com/rss",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "Al-Wasat Libya",
-   "url": "https://www.alwasat.ly/rss",
-   "reason": "HTTP 404"
-  },
-  {
    "source": "Saba News",
    "url": "https://www.sabanews.net/rss",
    "reason": "HTTP 403"
+  },
+  {
+   "source": "Yemen Post",
+   "url": "https://www.yemenpost.net/rss",
+   "reason": "HTTPSConnectionPool(host='www.yemenpost.net', port=443): Max retries exceeded with url: /rss (Caused by ProtocolError('C"
   },
   {
    "source": "Yemen Shabab",
@@ -688,11 +692,6 @@
    "reason": "HTTPSConnectionPool(host='althawra-yemen.net', port=443): Max retries exceeded with url: /rss (Caused by NameResolutionE"
   },
   {
-   "source": "Yemen Post",
-   "url": "https://www.yemenpost.net/rss",
-   "reason": "HTTPSConnectionPool(host='www.yemenpost.net', port=443): Max retries exceeded with url: /rss (Caused by ProtocolError('C"
-  },
-  {
    "source": "Al-Sahwa",
    "url": "https://alsahwa.net/rss",
    "reason": "no entries / not a feed"
@@ -700,11 +699,6 @@
   {
    "source": "Khabar",
    "url": "https://khabar.kz/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Muscat Daily",
-   "url": "https://muscatdaily.com/rss",
    "reason": "no entries / not a feed"
   },
   {
@@ -718,19 +712,9 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Radio Dabanga",
-   "url": "https://www.dabanga.org/feed/",
-   "reason": "HTTPSConnectionPool(host='www.dabanga.org', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionEr"
-  },
-  {
    "source": "Al-Sumaria",
    "url": "https://www.alsumaria.tv/rss",
    "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Al-Iraqiya",
-   "url": "https://www.aliraqiya.net/rss",
-   "reason": "HTTPSConnectionPool(host='www.aliraqiya.net', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLEOFE"
   },
   {
    "source": "Al-Sudani",
@@ -743,6 +727,11 @@
    "reason": "HTTP 403"
   },
   {
+   "source": "Al-Iraqiya",
+   "url": "https://www.aliraqiya.net/rss",
+   "reason": "HTTPSConnectionPool(host='www.aliraqiya.net', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLEOFE"
+  },
+  {
    "source": "Shafaq News",
    "url": "https://shafaq.com/rss",
    "reason": "HTTP 404"
@@ -753,19 +742,9 @@
    "reason": "HTTP 405"
   },
   {
-   "source": "Webmanagercenter",
-   "url": "https://www.webmanagercenter.com/feed/",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Al-Wasat",
-   "url": "https://www.alwasatnews.com/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Al-Anba",
-   "url": "https://www.alanba.com.kw/rss",
-   "reason": "no entries / not a feed"
+   "source": "Radar News",
+   "url": "https://radarnews.net/feed/",
+   "reason": "HTTP 404"
   },
   {
    "source": "Sudan Vision",
@@ -773,19 +752,19 @@
    "reason": "HTTPSConnectionPool(host='www.sudanvisiondaily.com', port=443): Max retries exceeded with url: /feed/ (Caused by NewConn"
   },
   {
-   "source": "Rudaw",
-   "url": "https://www.rudaw.net/rss",
+   "source": "Al-Wasat",
+   "url": "https://www.alwasatnews.com/rss",
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Radar News",
-   "url": "https://radarnews.net/feed/",
-   "reason": "HTTP 404"
+   "source": "Radio Dabanga",
+   "url": "https://www.dabanga.org/feed/",
+   "reason": "HTTPSConnectionPool(host='www.dabanga.org', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionEr"
   },
   {
-   "source": "Arab News",
-   "url": "https://www.arabnews.com/rss",
-   "reason": "HTTP 403"
+   "source": "Corriere del Ticino",
+   "url": "https://www.corriere.ch/rss",
+   "reason": "HTTPSConnectionPool(host='www.corriere.ch', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutErro"
   },
   {
    "source": "Kurdistan 24",
@@ -793,28 +772,28 @@
    "reason": "no entries / not a feed"
   },
   {
+   "source": "Rudaw",
+   "url": "https://www.rudaw.net/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "Le Buteur",
+   "url": "https://www.lebuteur.com/rss",
+   "reason": "HTTP 404"
+  },
+  {
    "source": "Daily Sabah",
    "url": "https://www.dailysabah.com/rss",
    "reason": "no entries / not a feed"
   },
   {
+   "source": "Arab News",
+   "url": "https://www.arabnews.com/rss",
+   "reason": "HTTP 403"
+  },
+  {
    "source": "Al-Jazirah",
    "url": "https://www.al-jazirah.com/rss",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "Milliyet",
-   "url": "https://www.milliyet.com.tr/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Maan News",
-   "url": "https://www.maannews.net/rss",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "Al-Quds",
-   "url": "https://www.alquds.com/rss",
    "reason": "HTTP 403"
   },
   {
@@ -823,9 +802,19 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Oman News Agency",
-   "url": "https://omannews.gov.om/rss",
-   "reason": "HTTPSConnectionPool(host='omannews.gov.om', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLCertVe"
+   "source": "Maan News",
+   "url": "https://www.maannews.net/rss",
+   "reason": "HTTP 403"
+  },
+  {
+   "source": "Oman Observer",
+   "url": "https://www.omanobserver.om/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "Milliyet",
+   "url": "https://www.milliyet.com.tr/rss",
+   "reason": "no entries / not a feed"
   },
   {
    "source": "Okaz",
@@ -833,8 +822,18 @@
    "reason": "no entries / not a feed"
   },
   {
-   "source": "Oman Observer",
-   "url": "https://www.omanobserver.om/rss",
+   "source": "Al-Quds",
+   "url": "https://www.alquds.com/rss",
+   "reason": "HTTP 403"
+  },
+  {
+   "source": "Oman News Agency",
+   "url": "https://omannews.gov.om/rss",
+   "reason": "HTTPSConnectionPool(host='omannews.gov.om', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLCertVe"
+  },
+  {
+   "source": "Saudi Gazette",
+   "url": "https://saudigazette.com.sa/rss",
    "reason": "no entries / not a feed"
   },
   {
@@ -843,48 +842,18 @@
    "reason": "HTTPSConnectionPool(host='www.alriyadh.com', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLCertV"
   },
   {
-   "source": "Emarat Al Youm",
-   "url": "https://www.emaratalyoum.com/rss",
-   "reason": "HTTP 404"
-  },
-  {
    "source": "Al-Bayan",
    "url": "https://www.albayan.ae/rss",
    "reason": "HTTP 404"
   },
   {
-   "source": "Saudi Gazette",
-   "url": "https://saudigazette.com.sa/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Corriere del Ticino",
-   "url": "https://www.corriere.ch/rss",
-   "reason": "HTTPSConnectionPool(host='www.corriere.ch', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutErro"
+   "source": "Emarat Al Youm",
+   "url": "https://www.emaratalyoum.com/rss",
+   "reason": "HTTP 404"
   },
   {
    "source": "Zawya",
    "url": "https://www.zawya.com/rss",
-   "reason": "no entries / not a feed"
-  },
-  {
-   "source": "Al-Bawaba",
-   "url": "https://www.albawabhnews.com/rss.aspx",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "Veto Gate",
-   "url": "https://www.vetogate.com/rss",
-   "reason": "HTTP 403"
-  },
-  {
-   "source": "The National",
-   "url": "https://www.thenationalnews.com/rss",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Al-Masry Al-Youm",
-   "url": "https://www.almasryalyoum.com/rss",
    "reason": "no entries / not a feed"
   },
   {
@@ -893,8 +862,8 @@
    "reason": "HTTPSConnectionPool(host='palestinechronicle.com', port=443): Max retries exceeded with url: /feed/ (Caused by ResponseE"
   },
   {
-   "source": "Al-Ahram",
-   "url": "https://www.ahram.org.eg/rss",
+   "source": "Al-Bawaba",
+   "url": "https://www.albawabhnews.com/rss.aspx",
    "reason": "HTTP 403"
   },
   {
@@ -903,14 +872,49 @@
    "reason": "no entries / not a feed"
   },
   {
+   "source": "Veto Gate",
+   "url": "https://www.vetogate.com/rss",
+   "reason": "HTTP 403"
+  },
+  {
+   "source": "Al-Ahram",
+   "url": "https://www.ahram.org.eg/rss",
+   "reason": "HTTP 403"
+  },
+  {
+   "source": "Wafa",
+   "url": "https://wafa.ps/rss",
+   "reason": "HTTP 404"
+  },
+  {
    "source": "Al-Bawaba",
    "url": "https://www.albawabhnews.com/rss",
    "reason": "HTTP 403"
   },
   {
+   "source": "Cairo 24",
+   "url": "https://www.cairo24.com/rss",
+   "reason": "HTTP 404"
+  },
+  {
    "source": "Veto Gate",
    "url": "https://www.vetogate.com/rss",
    "reason": "HTTP 403"
+  },
+  {
+   "source": "Al-Masry Al-Youm",
+   "url": "https://www.almasryalyoum.com/rss",
+   "reason": "no entries / not a feed"
+  },
+  {
+   "source": "Watani",
+   "url": "https://www.watanionline.com/feed/",
+   "reason": "HTTP 200"
+  },
+  {
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/rss",
+   "reason": "HTTP 404"
   },
   {
    "source": "Youm7",
@@ -923,24 +927,9 @@
    "reason": "HTTP 404"
   },
   {
-   "source": "Watani",
-   "url": "https://www.watanionline.com/feed/",
-   "reason": "HTTP 200"
-  },
-  {
-   "source": "Cairo 24",
-   "url": "https://www.cairo24.com/rss",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Wafa",
-   "url": "https://wafa.ps/rss",
-   "reason": "HTTP 404"
-  },
-  {
-   "source": "Al-Ittihad",
-   "url": "https://www.alittihad.ae/rss",
-   "reason": "no entries / not a feed"
+   "source": "RBK",
+   "url": "https://www.rbc.ru/newsfeed.rss",
+   "reason": "HTTP 401"
   },
   {
    "source": "Tasnim News",
@@ -951,11 +940,6 @@
    "source": "Hurriyet",
    "url": "https://www.hurriyet.com.tr/rss",
    "reason": "no entries / not a feed"
-  },
-  {
-   "source": "RBK",
-   "url": "https://www.rbc.ru/newsfeed.rss",
-   "reason": "HTTP 401"
   },
   {
    "source": "Press TV",
@@ -973,9 +957,19 @@
    "reason": "HTTP 403"
   },
   {
+   "source": "Wprost",
+   "url": "https://www.wprost.pl/rss",
+   "reason": "HTTPSConnectionPool(host='www.wprost.pl', port=443): Max retries exceeded with url: /rss (Caused by ReadTimeoutError(\"HT"
+  },
+  {
    "source": "Gazeta.ru",
    "url": "https://www.gazeta.ru/rss",
    "reason": "HTTP 404"
+  },
+  {
+   "source": "Al-Ittihad",
+   "url": "https://www.alittihad.ae/rss",
+   "reason": "no entries / not a feed"
   },
   {
    "source": "Orient News",
@@ -988,49 +982,44 @@
    "reason": "HTTPSConnectionPool(host='www.alalam.ir', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLCertVeri"
   },
   {
-   "source": "Rustavi 2",
-   "url": "https://rustavi2.com/rss",
-   "reason": "HTTPSConnectionPool(host='rustavi2.com', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<"
-  },
-  {
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/rss/all",
-   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
-  },
-  {
-   "source": "Shehab News",
-   "url": "https://shehabnews.com/rss",
-   "reason": "HTTPSConnectionPool(host='shehabnews.com', port=443): Max retries exceeded with url: /rss (Caused by ReadTimeoutError(\"H"
-  },
-  {
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/rss/all",
-   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
-  },
-  {
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/rss/all",
-   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
-  },
-  {
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/rss/all",
-   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
-  },
-  {
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/rss/all",
-   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
-  },
-  {
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/rss/all",
-   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
-  },
-  {
    "source": "Fars News",
    "url": "https://www.farsnews.ir/rss",
    "reason": "no entries / not a feed"
+  },
+  {
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/rss/all",
+   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
+  },
+  {
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/rss/all",
+   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
+  },
+  {
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/rss/all",
+   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
+  },
+  {
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/rss/all",
+   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
+  },
+  {
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/rss/all",
+   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
+  },
+  {
+   "source": "Webmanagercenter",
+   "url": "https://www.webmanagercenter.com/feed/",
+   "reason": "HTTPSConnectionPool(host='www.webmanagercenter.com', port=443): Max retries exceeded with url: /feed/ (Caused by ReadTim"
+  },
+  {
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/rss/all",
+   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
   },
   {
    "source": "KUNA",
@@ -1038,14 +1027,19 @@
    "reason": "HTTPSConnectionPool(host='www.kuna.net.kw', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutErro"
   },
   {
-   "source": "AllAfrica",
-   "url": "https://allafrica.com/rss/all",
-   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
+   "source": "Rustavi 2",
+   "url": "https://rustavi2.com/rss",
+   "reason": "HTTPSConnectionPool(host='rustavi2.com', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLCertVerif"
   },
   {
    "source": "Elsevier",
    "url": "https://www.elsevierweekblad.nl/rss",
    "reason": "HTTPSConnectionPool(host='www.elsevierweekblad.nl', port=443): Max retries exceeded with url: /rss (Caused by ConnectTim"
+  },
+  {
+   "source": "AllAfrica",
+   "url": "https://allafrica.com/rss/all",
+   "reason": "HTTPSConnectionPool(host='allafrica.com', port=443): Max retries exceeded with url: /rss/all (Caused by ConnectTimeoutEr"
   },
   {
    "source": "AllAfrica",
@@ -1063,10 +1057,46 @@
    "source": "Al-Ghad",
    "country": "Jordan",
    "tier": "4",
+   "title": "انفجار بموقع للجيش السوري جنوب حلب",
+   "link": "https://alghad.com/Section-224/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%B3%D9%88%D8%B1%D9%8A%D8%A9/%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1-%D8%A8%D9%85%D9%88%D9%82%D8%B9-%D9%84%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D8%B3%D9%88%D8%B1%D9%8A-%D8%AC%D9%86%D9%88%D8%A8-%D8%AD%D9%84%D8%A8-2096249",
+   "published": "2026-09-21T01:52:28+00:00",
+   "summary": "وقع انفجار في أحد مواقع الجيش السوري بمحيط بلدة العيس جنوب حلب، ليل الأحد-الاثنين، وسط تحذيرات رسمية من الاقتراب من موقع الانفجارات أو التوجه إليها، وفق وكالة الأنباء السورية \"سانا\"."
+  },
+  {
+   "source": "Al-Ghad",
+   "country": "Jordan",
+   "tier": "4",
    "title": "إدارة ترامب بصدد فرض عقوبات على المحكمة الجنائية الدولية",
    "link": "https://alghad.com/Section-170/%D8%AF%D9%88%D9%84%D9%8A/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A8%D8%B5%D8%AF%D8%AF-%D9%81%D8%B1%D8%B6-%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9-2096246",
    "published": "2026-09-21T00:04:14+00:00",
    "summary": "كشفت وسائل إعلام غربية أن إدارة ترامب ستفرض عقوبات شاملة على المحكمة الجنائية الدولية، في تصعيد حاد لجهود واشنطن الرامية إلى تفكيك هذه المؤسسة عقب إصدارها مذكرة اعتقال بحق رئيس الوزراء الإسرائيلي بنيامين نتنياهو."
+  },
+  {
+   "source": "Punch",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "Floodwater submerges road to Ogun gov’s hometown",
+   "link": "https://punchng.com/floodwater-submerges-road-to-ogun-govs-hometown/?utm_source=rss.punchng.com&utm_medium=web",
+   "published": "2026-09-21T00:02:33+00:00",
+   "summary": "A section of the Siun-Ogere-Iperu Road in Ogun State has been submerged by floodwater, prompting the state government to approve its reconstruction.\n\nRead More: https://punchng.com/floodwater-submerges-road-to-ogun-govs-hometown/"
+  },
+  {
+   "source": "Punch",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "Awoniyi gets first Eagles call-up since 2024",
+   "link": "https://punchng.com/awoniyi-gets-first-eagles-call-up-since-2024/?utm_source=rss.punchng.com&utm_medium=web",
+   "published": "2026-09-21T00:02:23+00:00",
+   "summary": "Coventry City striker Taiwo Awoniyi has been called up to the Super Eagles to replace injured Victor Osimhen for the 2027 AFCON qualifiers.\n\nRead More: https://punchng.com/awoniyi-gets-first-eagles-call-up-since-2024/"
+  },
+  {
+   "source": "Punch",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "Lagos mechanic lured with car repair job killed inside bush",
+   "link": "https://punchng.com/lagos-mechanic-lured-with-car-repair-job-killed-inside-bush/?utm_source=rss.punchng.com&utm_medium=web",
+   "published": "2026-09-21T00:02:07+00:00",
+   "summary": "A mechanic identified as Samson has been killed in a bush in the Abijo area of Ibeju-Lekki, Lagos, after being lured with a fake car repair job.\n\nRead More: https://punchng.com/lagos-mechanic-lured-with-car-repair-job-killed-inside-bush/"
   },
   {
    "source": "Al-Ghad",
@@ -1078,6 +1108,78 @@
    "summary": "خرج عشرات الآلاف من الأشخاص في مسيرات في فرنسا الأحد؛ احتجاجا على مقترح قانون يتعلق بمبدأ \"افتراض الاستخدام المشروع للسلاح\" من جانب قوات الأمن، وهو ما يعتبرونه بمثابة \"رخصة للقتل\"."
   },
   {
+   "source": "Punch",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "2027: Obi asks Nigerians to drive campaign agenda",
+   "link": "https://punchng.com/2027-obi-asks-nigerians-to-drive-campaign-agenda/?utm_source=rss.punchng.com&utm_medium=web",
+   "published": "2026-09-21T00:01:49+00:00",
+   "summary": "Peter Obi, the NDC presidential candidate, has asked Nigerians to determine the issues politicians campaign on for the 2027 elections, not the other way ro\n\nRead More: https://punchng.com/2027-obi-asks-nigerians-to-drive-campaign-agenda/"
+  },
+  {
+   "source": "Punch",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "By-elections: Tinubu, Yilwatda hail APC’s four-seat haul",
+   "link": "https://punchng.com/by-elections-tinubu-yilwatda-hail-apcs-four-seat-haul/?utm_source=rss.punchng.com&utm_medium=web",
+   "published": "2026-09-21T00:01:27+00:00",
+   "summary": "President Bola Tinubu and APC Chairman Nentawe Yilwatda have hailed the party&#8217;s victory in four of the five legislative by-elections held across Nigeria.\n\nRead More: https://punchng.com/by-elections-tinubu-yilwatda-hail-apcs-four-seat-haul/"
+  },
+  {
+   "source": "Punch",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "NITP seeks urgent action on Lekki-Epe flooding",
+   "link": "https://punchng.com/nitp-seeks-urgent-action-on-lekki-epe-flooding/?utm_source=rss.punchng.com&utm_medium=web",
+   "published": "2026-09-21T00:00:48+00:00",
+   "summary": "The Nigerian Institute of Town Planners has called for urgent action to tackle flooding in the Lekki-Epe corridor of Lagos, advising on drainage solutions.\n\nRead More: https://punchng.com/nitp-seeks-urgent-action-on-lekki-epe-flooding/"
+  },
+  {
+   "source": "Punch",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "Police warn cult group over planned Osun protest",
+   "link": "https://punchng.com/police-warn-cult-group-over-planned-osun-protest/?utm_source=rss.punchng.com&utm_medium=web",
+   "published": "2026-09-21T00:00:19+00:00",
+   "summary": "The Osun State Police Command has warned a group identified as the &#8216;Congress of Cultists&#8217; against a planned protest, vowing to act decisively against it.\n\nRead More: https://punchng.com/police-warn-cult-group-over-planned-osun-protest/"
+  },
+  {
+   "source": "Punch",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "Oyo kidnap: Monarch seeks upgrade of police post",
+   "link": "https://punchng.com/oyo-kidnap-monarch-seeks-upgrade-of-police-post/?utm_source=rss.punchng.com&utm_medium=web",
+   "published": "2026-09-21T00:00:13+00:00",
+   "summary": "Following the abduction of over 40 pupils, a monarch in Oyo State has urged President Tinubu and the IGP to upgrade a local police post to a division.\n\nRead More: https://punchng.com/oyo-kidnap-monarch-seeks-upgrade-of-police-post/"
+  },
+  {
+   "source": "Daily Maverick",
+   "country": "South Africa",
+   "tier": "2",
+   "title": "SINKING CITY: Orange Grove sinkhole victim (81) languishes as Joburg defaults on court orders",
+   "link": "https://www.dailymaverick.co.za/article/2026-09-20-orange-grove-sinkhole-victim-81-languishes-as-joburg-defaults-on-court-orders/",
+   "published": "2026-09-20T23:52:47+00:00",
+   "summary": "Sherley Markowitz (81) was forced to move from her Orange Grove home when a municipal stormwater culvert collapsed. Six years and multiple court cases against the City of Joburg later, she still can’t return."
+  },
+  {
+   "source": "Syria TV",
+   "country": "Syria",
+   "tier": "4",
+   "title": "انفجارات متتالية تهز حلب وريفها إثر انفجار مستودع ذخيرة في منطقة العيس",
+   "link": "https://www.syria.tv/%D8%B3%D9%84%D8%B3%D9%84%D8%A9-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D9%87%D8%B2-%D8%AD%D9%84%D8%A8-%D9%88%D8%B1%D9%8A%D9%81%D9%87%D8%A7-%D8%A5%D8%AB%D8%B1-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1-%D9%85%D8%B3%D8%AA%D9%88%D8%AF%D8%B9-%D8%B0%D8%AE%D9%8A%D8%B1%D8%A9-%D9%81%D9%8A-%D9%85%D9%88%D9%82%D8%B9-%D9%84%D9%84%D8%AC%D9%8A%D8%B4-%D8%A8%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B9%D9%8A%D8%B3",
+   "published": "2026-09-20T23:31:49+00:00",
+   "summary": "صورة متداولة لانفجار مستودع ذخيرة في منطقة العيس جنوبي حلب"
+  },
+  {
+   "source": "Correio da Manha",
+   "country": "Portugal",
+   "tier": "2",
+   "title": "<![CDATA[ Blog ]]>",
+   "link": "https://www.cmjornal.pt/opiniao/colunistas/blog/detalhe/20260920-152111-blog",
+   "published": "2026-09-20T23:30:00+00:00",
+   "summary": "Aqui não houve protestos do feminismo político, porque enfim."
+  },
+  {
    "source": "Daily Maverick",
    "country": "South Africa",
    "tier": "2",
@@ -1085,6 +1187,69 @@
    "link": "https://www.dailymaverick.co.za/article/2026-09-20-kenny-kunene-tells-joburg-god-gives-light-during-the-day-i-will-at-night/",
    "published": "2026-09-20T23:21:30+00:00",
    "summary": "Launching his campaign for Joburg mayor on Saturday, the Patriotic Alliance’s Kenny Kunene committed to tackling hijacked buildings and made bold claims about his achievements as transport MMC."
+  },
+  {
+   "source": "Aftonbladet",
+   "country": "Sweden",
+   "tier": "2",
+   "title": "Syrien: Flera explosioner nära Aleppo",
+   "link": "https://www.aftonbladet.se/nyheter/a/5pap8X/syrien-flera-explosioner-har-horts?utm_medium=rss",
+   "published": "2026-09-20T23:21:25+00:00",
+   "summary": "En serie explosioner har hörts i Syriens norra delar, i närheten av Aleppo, rapporterar den statliga…"
+  },
+  {
+   "source": "BBC News",
+   "country": "United Kingdom",
+   "tier": "2",
+   "title": "Jailed teacher convicted of sexual abuse secretly released early in Indonesia, BBC finds",
+   "link": "https://www.bbc.co.uk/news/articles/c9zrz0nl4p70o?at_medium=RSS&at_campaign=rss",
+   "published": "2026-09-20T23:12:31+00:00",
+   "summary": "Undercover footage recorded by the BBC reveals he has been released after serving less than half his sentence."
+  },
+  {
+   "source": "Adevarul",
+   "country": "Romania",
+   "tier": "2",
+   "title": "NATO trece de la poliție aeriană la un nou sistem de apărare „la 360 de grade”, pe fondul creșterii amenințărilor cu drone și rachete",
+   "link": "https://adevarul.ro/stiri-externe/europa/nato-trece-de-la-politie-aeriana-la-un-nou-sistem-2558699.html",
+   "published": "2026-09-20T23:10:25+00:00",
+   "summary": "NATO adoptă o nouă abordare pentru operațiunile sale de apărare antiaeriană în Europa, îndepărtându-se de misiunile tradiționale de poliție aeriană și îndreptându-se spre o strategie \"la 360 de grade\", a declarat un oficial al alianței."
+  },
+  {
+   "source": "Premium Times",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "Tinubu hails by-election winners in four states",
+   "link": "https://www.premiumtimesng.com/news/more-news/911139-tinubu-hails-by-election-winners-in-four-states.html",
+   "published": "2026-09-20T23:09:46+00:00",
+   "summary": "Mr Tinubu urged INEC to build on the progress recorded in the by-elections and address identified shortcomings ahead of future polls.\nThe post Tinubu hails by-election winners in four states appeared first on Premium Times Nigeria."
+  },
+  {
+   "source": "Asharq Al-Awsat",
+   "country": "Saudi Arabia",
+   "tier": "4",
+   "title": "«تقرير»: إدارة ترمب تعتزم فرض عقوبات على المحكمة الجنائية الدولية",
+   "link": "https://aawsat.com/node/5320661",
+   "published": "2026-09-20T23:08:51+00:00",
+   "summary": "قال مصدران مطلعان إن إدارة الرئيس الأميركي دونالد ترمب أعدت عقوبات تستهدف المحكمة الجنائية الدولية بأكملها وتعتزم إعلانها قريبا."
+  },
+  {
+   "source": "This Day",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "2027 ELECTIONS: A CHOICE, NOT WARFARE",
+   "link": "https://www.thisdaylive.com/2026/09/21/2027-elections-a-choice-not-warfare/",
+   "published": "2026-09-20T23:07:28+00:00",
+   "summary": "&#160;CHARLES MERIBOLE condemns the surge in political violence and enjoins the electorate not to be intimidated A disturbing trend of rising political intolerance is emerging in Nigeria’s political landscape in"
+  },
+  {
+   "source": "Asharq Al-Awsat",
+   "country": "Saudi Arabia",
+   "tier": "4",
+   "title": "انفجارات قوية قرب حلب في شمال سوريا",
+   "link": "https://aawsat.com/node/5320647",
+   "published": "2026-09-20T23:02:54+00:00",
+   "summary": "سُمع دوي انفجار قوي قرب حلب في شمال سوريا، فجر اليوم (الاثنين)، تلاه انفجارات متتالية بحسب ما نقلته وسائل إعلام رسمية."
   },
   {
    "source": "Daily Maverick",
@@ -1096,6 +1261,87 @@
    "summary": "A single operator can now direct AI hacking swarms to scan, exploit and ransom neglected devices worldwide, collapsing human processing limits and exposing decades of unpatched vulnerabilities."
   },
   {
+   "source": "TASS",
+   "country": "Russia",
+   "tier": "4",
+   "title": "Merz’s CDU loses vote in Mecklenburg-Western Pomerania — electoral body",
+   "link": "https://tass.com/world/2190359",
+   "published": "2026-09-20T22:55:36+00:00",
+   "summary": "According to a statement by the state election commission, the CDU took a mere 4.9% of the vote"
+  },
+  {
+   "source": "Al Jazeera",
+   "country": "Qatar",
+   "tier": "2",
+   "title": "Polls close in Russian wartime election with ruling party set to dominate",
+   "link": "https://www.aljazeera.com/news/2026/9/20/polls-close-in-russian-wartime-election-with-ruling-party-set-to-dominate?traffic_source=rss",
+   "published": "2026-09-20T22:54:00+00:00",
+   "summary": "Russian President Vladimir Putin has cast the vote as a test of support for his ongoing war in Ukraine."
+  },
+  {
+   "source": "Al-Manar",
+   "country": "Lebanon",
+   "tier": "3",
+   "title": "قائد عمليات الدفاع المدني في حلب: نحذر المدنيين من الاقتراب من مكان الانفجارات بمنطقة العيس",
+   "link": "https://www.almanar.com.lb/article/1193927/",
+   "published": "2026-09-20T22:48:35+00:00",
+   "summary": ""
+  },
+  {
+   "source": "Al-Manar",
+   "country": "Lebanon",
+   "tier": "3",
+   "title": "سانا عن الدفاع المدني في حلب: استمرار الانفجارات بمنطقة العيس جنوب حلب يعيق وصول فرق الإسعاف والإنقاذ للمكان",
+   "link": "https://www.almanar.com.lb/article/1193917/",
+   "published": "2026-09-20T22:47:20+00:00",
+   "summary": ""
+  },
+  {
+   "source": "ISNA",
+   "country": "Iran",
+   "tier": "4",
+   "title": "انفجارهای شدید انبار مهمات در حومه حلب سوریه",
+   "link": "https://www.isna.ir/news/1405063019901/%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%D9%87%D8%A7%DB%8C-%D8%B4%D8%AF%DB%8C%D8%AF-%D8%A7%D9%86%D8%A8%D8%A7%D8%B1-%D9%85%D9%87%D9%85%D8%A7%D8%AA-%D8%AF%D8%B1-%D8%AD%D9%88%D9%85%D9%87-%D8%AD%D9%84%D8%A8-%D8%B3%D9%88%D8%B1%DB%8C%D9%87",
+   "published": "2026-09-20T22:47:00+00:00",
+   "summary": "منابع محلی سوری از انفجارهای شدید در حومه جنوبی حلب و سقوط ترکش‌ها و موشک‌ها به مناطق مسکونی نزدیک محل حادثه خبر دادند."
+  },
+  {
+   "source": "Al-Manar",
+   "country": "Lebanon",
+   "tier": "3",
+   "title": "سانا: انفجار مستودع للذخيرة في منطقة العيس في ريف حلب الجنوبي",
+   "link": "https://www.almanar.com.lb/article/1193907/",
+   "published": "2026-09-20T22:46:06+00:00",
+   "summary": ""
+  },
+  {
+   "source": "Daily Mail",
+   "country": "United Kingdom",
+   "tier": "2",
+   "title": "Putin-backing United Russia party is predicted crushing victory with almost 60% of the vote in country's parliamentary elections, early counts say",
+   "link": "https://www.dailymail.com/news/article-16146551/Ruling-United-Russia-party-predicted-win-50-vote-parliamentary-elections-exit-polls-say.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+   "published": "2026-09-20T22:46:05+00:00",
+   "summary": "Russia's ruling party that is loyal to Vladimir Putin is set for a landslide victory in the country's first wartime parliamentary elections, widely regarded as a 'sham'."
+  },
+  {
+   "source": "Mosaique FM",
+   "country": "Tunisia",
+   "tier": "3",
+   "title": "إدارة ترامب تعتزم فرض عقوبات على المحكمة الجنائية الدولية",
+   "link": "https://www.mosaiquefm.net/ar/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1-%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85%D9%8A%D8%A9/1530895/%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%AA%D8%B9%D8%AA%D8%B2%D9%85-%D9%81%D8%B1%D8%B6-%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%B9%D9%84%D9%89-%D8%A7%D9%84%D9%85%D8%AD%D9%83%D9%85%D8%A9-%D8%A7%D9%84%D8%AC%D9%86%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A7%D9%84%D8%AF%D9%88%D9%84%D9%8A%D8%A9",
+   "published": "2026-09-20T22:42:00+00:00",
+   "summary": "إدارة ترامب تعتزم فرض عقوبات على المحكمة الجنائية الدولية"
+  },
+  {
+   "source": "Gulf News",
+   "country": "United Arab Emirates",
+   "tier": "4",
+   "title": "Russia vows revenge for election-day attacks as poll shows ruling party win",
+   "link": "https://gulfnews.com/world/europe/russia-vows-revenge-for-election-day-attacks-as-poll-shows-ruling-party-win-1.500681119",
+   "published": "2026-09-20T22:36:28+00:00",
+   "summary": "Russians vote on last day of parliamentary elections"
+  },
+  {
    "source": "Punch",
    "country": "Nigeria",
    "tier": "3",
@@ -1103,6 +1349,141 @@
    "link": "https://punchng.com/police-arrest-five-suspects-over-attack-on-osun-church/?utm_source=rss.punchng.com&utm_medium=web",
    "published": "2026-09-20T22:35:07+00:00",
    "summary": "The Osun State Police Command has arrested five suspects for allegedly attacking a Methodist Church in the Fiwasaye Area of Osogbo and damaging property.\n\nRead More: https://punchng.com/police-arrest-five-suspects-over-attack-on-osun-church/"
+  },
+  {
+   "source": "Hespress",
+   "country": "Morocco",
+   "tier": "3",
+   "title": "هيئات المحامين توضح مواصلة الإضراب",
+   "link": "https://www.hespress.com/%d9%87%d9%8a%d8%a6%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d9%85%d9%8a%d9%86-%d8%aa%d9%88%d8%b6%d8%ad-%d9%85%d9%88%d8%a7%d8%b5%d9%84%d8%a9-%d8%a7%d9%84%d8%a5%d8%b6%d8%b1%d8%a7%d8%a8-1810518.html",
+   "published": "2026-09-20T22:25:10+00:00",
+   "summary": "أفادت جمعية هيئات المحامين بالمغرب بأن مكتبها التنفيذي قرر، عقب اجتماعه المطوّل المنعقد اليوم الأحد، &#8220;الاستمرار في التوقف عن تقديم الخدمات المهنية إلى غاية 7 أكتوبر 2026، مع تعليق هذا التوقف مؤقتا ابتداء من هذا التاريخ&#8221;. وأوضحت الجمعية سالفة الذكر، في بلاغ توصلت به جريدة هسبريس الإلكترونية، أن هذا القرار يأتي &#8220;تجسيدا لموقف محاميات ومحامي [&#8230;]\nThe post هيئات المحامين توضح موا"
+  },
+  {
+   "source": "Sydsvenskan",
+   "country": "Sweden",
+   "tier": "2",
+   "title": "Håll ut i höststormen – lugnare vecka väntar: ”Fortfarande sommar”",
+   "link": "https://www.sydsvenskan.se/skane/hall-ut-i-hoststormen-lugnare-vecka-vantar-fortfarande-sommar/",
+   "published": "2026-09-20T22:19:40+00:00",
+   "summary": "Efter en blåsig, blöt och bökig helg väntar en torrare och ganska varm vecka. – Det är fortfarande sommar i en stor del av södra Sverige, säger Anna Belking, meteorolog vid SMHI."
+  },
+  {
+   "source": "Channels TV",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "Niger Govt Unaware Of Miners’ Arrest Before Deaths In NSCDC Custody – Bago",
+   "link": "https://www.channelstv.com/2026/09/20/niger-govt-unaware-of-miners-arrest-before-deaths-in-nscdc-custody-bago/",
+   "published": "2026-09-20T22:17:55+00:00",
+   "summary": "According to Bago, 67 artisanal and suspected illegal miners were taken into custody, while 37 subsequently died.\nThe post Niger Govt Unaware Of Miners’ Arrest Before Deaths In NSCDC Custody – Bago appeared first on Channels Television."
+  },
+  {
+   "source": "An-Nahar",
+   "country": "Lebanon",
+   "tier": "3",
+   "title": "أرنولد... سلاح توخيل لكسر دفاعات إنكلترا المغلقة",
+   "link": "https://www.annahar.com/sports/349297/أرنولد-سلاح-توخيل-لكسر-دفاعات-إنكلترا-المغلقة",
+   "published": "2026-09-20T22:01:00+00:00",
+   "summary": "لم يكن استدعاء توماس توخيل للاعب ترينت ألكسندر أرنولد خلال فترة التوقف الدولي الحالية مجرد عودة تقليدية للاعب إلى صفوف المنتخب الإنكليزي فحسب، بل تبدو محاولة لمعالجة مشكلة تكتيكية ظهرت بوضوح في كأس العالم 2026 عند مواجهة الدفاعات المتكتلة.رغم القدرات الهجومية الكبيرة التي يتمتع بها المنتخب الإنكليزي وتوافر  حلول عدة عند فتح المساحات، فإنه يواجه صعوبة عندما يحصن الخصم ملعبه أمام المهاجمين، مما يؤثر"
+  },
+  {
+   "source": "Al-Chorouk",
+   "country": "Tunisia",
+   "tier": "3",
+   "title": "كارثة جديدة.. 11 قتيلا و30 مصابا في انهيار منجم ذهب بالسودان",
+   "link": "https://www.alchourouk.com/article/%D9%83%D8%A7%D8%B1%D8%AB%D8%A9-%D8%AC%D8%AF%D9%8A%D8%AF%D8%A9-11-%D9%82%D8%AA%D9%8A%D9%84%D8%A7-%D9%8830-%D9%85%D8%B5%D8%A7%D8%A8%D8%A7-%D9%81%D9%8A-%D8%A7%D9%86%D9%87%D9%8A%D8%A7%D8%B1-%D9%85%D9%86%D8%AC%D9%85-%D8%B0%D9%87%D8%A8-%D8%A8%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D9%86",
+   "published": "2026-09-20T22:00:29+00:00",
+   "summary": "كارثة جديدة.. 11 قتيلا و30 مصابا في انهيار منجم ذهب بالسودان\ntahar_alchourouk\ndim 20/09/2026 - 23:00"
+  },
+  {
+   "source": "The Independent",
+   "country": "United Kingdom",
+   "tier": "2",
+   "title": "Royal family news live: Sussexes should get security as ‘unpleasant’ press treatment echoes that of Diana, says Earl Spencer",
+   "link": "https://www.independent.co.uk/news/uk/home-news/earl-spencer-book-king-charles-response-diana-harry-live-updates-b3052283.html",
+   "published": "2026-09-20T21:59:21+00:00",
+   "summary": "Princess Diana’s brother has insisted he is ‘telling the truth’ about his bombshell allegations"
+  },
+  {
+   "source": "De Standaard",
+   "country": "Belgium",
+   "tier": "2",
+   "title": "Samen baas: met unieke managementstructuur wil IT-bedrijf Delaware 150 jaar worden",
+   "link": "https://www.standaard.be/economie/samen-baas-met-unieke-managementstructuur-wil-it-bedrijf-delaware-150-jaar-worden/161711941.html",
+   "published": "2026-09-20T21:59:00+00:00",
+   "summary": "Collectief leiderschap maakte van de Vlaamse IT-dienstverlener Delaware een wereldspeler. Kan die structuur de AI-storm doorstaan? “Het rendement staat even onder druk, maar het groeipotentieel is enorm.”"
+  },
+  {
+   "source": "De Standaard",
+   "country": "Belgium",
+   "tier": "2",
+   "title": "Maandag op tv: terugblik op de evacuatie in Kaboel in 2021 en het wereldrecord ballonvaren in 1999",
+   "link": "https://www.standaard.be/nieuws/maandag-op-tv-terugblik-op-de-evacuatie-in-kaboel-in-2021-en-het-wereldrecord-ballonvaren-in-1999/161688923.html",
+   "published": "2026-09-20T21:59:00+00:00",
+   "summary": "Geen idee wat u vanavond kunt bekijken op tv of op zoek naar streamingtips? Hier vindt u dagelijks aanraders van onze mediaredacteurs."
+  },
+  {
+   "source": "Cumhuriyet",
+   "country": "Turkey",
+   "tier": "4",
+   "title": "2 şüpheli yakalandı: Tehdit, haraç, kundaklama...",
+   "link": "https://www.cumhuriyet.com.tr/turkiye/2-supheli-yakalandi-tehdit-harac-kundaklama-2539406",
+   "published": "2026-09-20T21:58:00+00:00",
+   "summary": "Arnavutköy'de bir iş yeri sahibini telefonla arayarak para talebinde bulunan ve ardından tehdit ederek iş yerinin önündeki aracı ateşe veren 2 şüpheli polisin yaptığı çalışmaların ardından yakalanarak gözaltına alındı."
+  },
+  {
+   "source": "France 24",
+   "country": "France",
+   "tier": "2",
+   "title": "Torres strikes again as PSG beat bitter rivals Marseille 2-1",
+   "link": "https://www.france24.com/en/sport/20260920-torres-strikes-again-as-psg-beat-bitter-rivals-marseille-2-1",
+   "published": "2026-09-20T21:55:07+00:00",
+   "summary": "Paris Saint-Germain claimed the bragging rights in 'Le Classique' on Sunday, edging Marseille 2-1 as Spaniard Ferran Torres scored his seventh goal in six appearances for his new club."
+  },
+  {
+   "source": "Channels TV",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "Rivers Local Govt Chairman Vows Justice For Woman Killed In Ogoda",
+   "link": "https://www.channelstv.com/2026/09/20/rivers-local-govt-chairman-vows-justice-for-woman-killed-in-ogoda/",
+   "published": "2026-09-20T21:51:04+00:00",
+   "summary": "The Ahoada West local government chairman gave the assurance after leading his team, alongside security operatives, to Ogoda Community, where the body of the unnamed victim was recovered from a stream.\nThe post Rivers Local Govt Chairman Vows Justice For Woman Killed In Ogoda appeared first on Channels Television."
+  },
+  {
+   "source": "TASS",
+   "country": "Russia",
+   "tier": "4",
+   "title": "Two civilians killed, 4 others injured as Ukrainian army attacks DPR 31 times in past day",
+   "link": "https://tass.com/defense/2190351",
+   "published": "2026-09-20T21:51:04+00:00",
+   "summary": "Two residential houses were damaged in the attacks"
+  },
+  {
+   "source": "Blueprint",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "2027: Kaduna PDP move to reconcile candidates, former aspirants",
+   "link": "https://blueprint.ng/2027-kaduna-pdp-move-to-reconcile-candidates-former-aspirants/",
+   "published": "2026-09-20T21:49:31+00:00",
+   "summary": "Ahead of the 2027 general elections, the Kaduna state governorship candidate of the Peoples Democratic Party (PDP), Hon. Usman Shehu Bawa, has begun moves to [...]"
+  },
+  {
+   "source": "Legit.ng",
+   "country": "Nigeria",
+   "tier": "3",
+   "title": "NDLEA officer dies in river as suspected drug offender escapes arrest",
+   "link": "https://www.legit.ng/nigeria/1731918-ndlea-officer-drowns-river-chasing-suspected-drug-offender/",
+   "published": "2026-09-20T21:47:55+00:00",
+   "summary": "An NDLEA officer drowned in Delta's River Ethiope while chasing a drug suspect. A second officer was rescued as the agency investigates the escape and death."
+  },
+  {
+   "source": "Financial Times",
+   "country": "United Kingdom",
+   "tier": "2",
+   "title": "German chancellor Merz vows to stay on despite ‘disaster’ in regional elections",
+   "link": "https://www.ft.com/content/d74ce82a-2a15-404a-ae3a-3921e887bab3?syn-25a6b1a6=1",
+   "published": "2026-09-20T21:47:35+00:00",
+   "summary": "Partial results suggest CDU is set to fail to secure parliamentary representation in Mecklenburg-Vorpommern"
   },
   {
    "source": "Punch",
@@ -1123,6 +1504,24 @@
    "summary": "Niger State Governor Bago says the state was unaware of the arrest of suspected illegal miners who later died in the custody of the NSCDC in Minna.\n\nRead More: https://punchng.com/niger-govt-unaware-of-miners-arrest-before-deaths-in-nscdc-custody-bago/"
   },
   {
+   "source": "TASS",
+   "country": "Russia",
+   "tier": "4",
+   "title": "United Russia party leading preliminary vote count with 50% of ballots processed",
+   "link": "https://tass.com/politics/2190349",
+   "published": "2026-09-20T21:45:33+00:00",
+   "summary": "The Communist Party garnered 13.79% of the vote,  the LDPR 8.80%, New People 7.86%, and A Just Russia 5.11%, according to the Russian Central Election Commission"
+  },
+  {
+   "source": "Kurir",
+   "country": "Serbia",
+   "tier": "3",
+   "title": "SPARTAK SPREMA BOMBU: Iskusni Slovenac već trenira sa Subotičanima!",
+   "link": "https://www.kurir.rs/sport/kosarka/10110047/spartak-dobija-pojacanje-omic-se-pridruzio-ekipi",
+   "published": "2026-09-20T21:41:00+00:00",
+   "summary": ""
+  },
+  {
    "source": "The Irish Times",
    "country": "Ireland",
    "tier": "2",
@@ -1135,8 +1534,8 @@
    "source": "Gazeta Express",
    "country": "Kosovo",
    "tier": "3",
-   "title": "Përparim Rama vendos në kopertinë foton virale të protestës për ish-krerët e UÇK-së",
-   "link": "https://www.gazetaexpress.com/perparim-rama-vendos-ne-kopertine-foton-virale-te-protestes-per-ish-kreret-e-uck-se/",
+   "title": "Përparim Rama e shpërndan fotografinë virale të protestës për ish-krerët e UÇK-së",
+   "link": "https://www.gazetaexpress.com/perparim-rama-vendosne-kopertine-foton-virale-te-protestes-per-ish-kreret-e-uck-se/",
    "published": "2026-09-20T21:37:47+00:00",
    "summary": "Për natën e pestë rreshtë kanë vazhduar protestat në Prishtinë kudnër verdiktit të Gjyaktës Speciale për ish-krerët e UÇK-së.\n\n\nPrrotestave i janë bashkuar mijëra qyetarë dhe po mbahen çdo natë nga ora 21:00.\n\n\nFotografia e 20 shtatorit u bë virale, ku shihet një flamur gjigantë kombëtar me logon e UÇK-së i rrethhuar nga mijëra qytetarë.\n\n\nKjo fotografi u shpërnda në Facebook edhe nga kryetari i"
   },
@@ -1195,6 +1594,15 @@
    "summary": "Elections in Berlin and Mecklenburg-Western Pomerania have dealt the CDU a historic defeat while the AfD saw a massive gain. The pressure on Germany's unpopular chancellor is mounting."
   },
   {
+   "source": "La Vanguardia",
+   "country": "Spain",
+   "tier": "2",
+   "title": "La Policía efectúa disparos al aire en Ceuta para disolver la protesta",
+   "link": "https://www.lavanguardia.com/politica/20260920/11639796/policia-efectua-disparos-aire-ceuta-contener-manifestantes-zarandearon-coche-diputada-julia-ferreras-negu-gorriak.html",
+   "published": "2026-09-20T21:19:17+00:00",
+   "summary": "Cerca de 200 vecinos se enfrentaron a los agentes después de que varios manifestantes atacaran el vehículo en el que viajaba la diputada Julia Ferreras y el activista de la Flotilla&nbsp;Rafael Borrego&nbsp;"
+  },
+  {
    "source": "Daily Maverick",
    "country": "South Africa",
    "tier": "2",
@@ -1228,7 +1636,7 @@
    "title": "Manifestantes destrozan en Ceuta el coche de una diputada que viajaba con un activista",
    "link": "https://elpais.com/espana/2026-09-20/manifestantes-destrozan-en-ceuta-el-coche-de-una-diputada-que-viajaba-con-un-activista.html",
    "published": "2026-09-20T21:17:16+00:00",
-   "summary": "Los atacantes se habían concentrado en el puerto de la ciudad autónoma para protestar por la anunciada llegada del grupo vasco Negu Gorriak"
+   "summary": "Los atacantes se habían concentrado en el puerto de la ciudad autónoma para protestar por la anunciada llegada del grupo pamplonés Negu Gorriak"
   },
   {
    "source": "Yeni Safak",
@@ -1339,15 +1747,6 @@
    "summary": "The pair lured victim Ali Almafraji to a Nando's restaurant in south London with the promise of a date, before jumping into his car and threatening him with an imitation gun."
   },
   {
-   "source": "Hespress",
-   "country": "Morocco",
-   "tier": "3",
-   "title": "فرنسا تعتزم استدعاء السفير الإيراني",
-   "link": "https://www.hespress.com/%d9%81%d8%b1%d9%86%d8%b3%d8%a7-%d8%aa%d8%b9%d8%aa%d8%b2%d9%85-%d8%a7%d8%b3%d8%aa%d8%af%d8%b9%d8%a7%d8%a1-%d8%b3%d9%81%d9%8a%d8%b1-%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-1810496.html",
-   "published": "2026-09-20T21:01:28+00:00",
-   "summary": "قالت وزارة الخارجية الفرنسية اليوم الأحد إنها ستستدعي سفير إيران لدى باريس، وستتخذ الإجراءات المناسبة ردا على إغلاق السلطات الإيرانية مركزا لتعليم اللغة الفرنسية تابعا لسفارتها في طهران. وقال المتحدث باسم وزارة الخارجية في بيان &#8220;هذا الهجوم الجديد على الوجود الثقافي الفرنسي في إيران، في أعقاب الاعتداء على اثنين من موظفي السفارة الفرنسية في يوليو [&#8230;]\nThe post فرنسا تعتزم استدعاء السفير ا"
-  },
-  {
    "source": "BalkanWeb",
    "country": "Albania",
    "tier": "2",
@@ -1373,6 +1772,15 @@
    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/20/argentinas-left-stages-march-of-anger-over-mileis-austerity-measures?traffic_source=rss",
    "published": "2026-09-20T20:58:01+00:00",
    "summary": "Thousands of protesters took to the streets of Buenos Aires for the ‘March of Anger’."
+  },
+  {
+   "source": "SANA",
+   "country": "Syria",
+   "tier": "4",
+   "title": "تظاهرات في فرنسا ضد مشروع قانون بشأن استخدام الشرطة للسلاح",
+   "link": "https://sana.sy/international/2585749/",
+   "published": "2026-09-20T20:57:00+00:00",
+   "summary": "تظاهر عشرات الآلاف في عدد من المدن الفرنسية، اليوم الأحد، احتجاجاً على ‏مشروع قانون يتعلق بمبدأ «افتراض الاستخدام المشروع للسلاح» من قبل قوات ‏الأمن، معتبرين أنه يمنح عناصر الشرطة «رخصة للقتل».‏"
   },
   {
    "source": "Sabah",
@@ -1411,15 +1819,6 @@
    "summary": "Holandska policija saopštila je danas da je pustila svih 24 privedenih nakon nereda tokom protesta krajnje desnice u Hagu."
   },
   {
-   "source": "Blueprint",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "EPL: Manchester United escape 3rd defeat in a week",
-   "link": "https://blueprint.ng/epl-manchester-united-escape-3rd-defeat-in-a-week/",
-   "published": "2026-09-20T20:52:55+00:00",
-   "summary": "Matheus Cunha&#8217;s deflected strike rescued a point for Manchester United late on to deny Fulham a first Premier League win of the season. Lisandro Martinez&#8217;s [...]"
-  },
-  {
    "source": "Yeni Safak",
    "country": "Turkey",
    "tier": "4",
@@ -1438,24 +1837,6 @@
    "summary": "Φιλοδοξεί να είναι το δεύτερο υψηλότερο κτήριο στην Ουάσιγκτον μετά το ΚαπιτώλιοΠερισσότερα..."
   },
   {
-   "source": "Blueprint",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "2027 AFCON qualifiers: Awoniyi in, Osimhen out",
-   "link": "https://blueprint.ng/2027-afcon-qualifiers-awoniyi-in-osimhen-out/",
-   "published": "2026-09-20T20:47:35+00:00",
-   "summary": "Super Eagles gaffer Eric Chelle has confirmed &#160;that the Coventry City striker would replace Victor Osimhen for the matches against Madagascar and Guinea-Bissau. Awoniyi was [...]"
-  },
-  {
-   "source": "Daily Mail",
-   "country": "United Kingdom",
-   "tier": "2",
-   "title": "Putin-backing United Russia party is predicted crushing victory with almost 60% of the vote in country's parliamentary elections, early counts say",
-   "link": "https://www.dailymail.com/news/article-16146551/Ruling-United-Russia-party-predicted-win-50-vote-parliamentary-elections-exit-polls-say.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-   "published": "2026-09-20T20:46:56+00:00",
-   "summary": "Russia's ruling party that is loyal to Vladimir Putin is set for a landslide victory in the country's first wartime parliamentary elections, widely regarded as a 'sham'."
-  },
-  {
    "source": "Metro",
    "country": "United Kingdom",
    "tier": "2",
@@ -1463,15 +1844,6 @@
    "link": "https://metro.co.uk/2026/09/20/man-44-charged-smashing-belfasts-big-fish-sculpture-29638165/",
    "published": "2026-09-20T20:46:15+00:00",
    "summary": "The attack left the sculpture with 'significant damage' to its left eye, according to the police."
-  },
-  {
-   "source": "Hespress",
-   "country": "Morocco",
-   "tier": "3",
-   "title": "جمعية هيئات المحامين تواصل الإضراب إلى افتتاح السنة التشريعية",
-   "link": "https://www.hespress.com/%d8%ac%d9%85%d8%b9%d9%8a%d8%a9-%d9%87%d9%8a%d8%a6%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%ad%d8%a7%d9%85%d9%8a%d9%86-%d8%aa%d9%88%d8%a7%d8%b5%d9%84-%d8%a7%d9%84%d8%a5%d8%b6%d8%b1%d8%a7%d8%a8-%d8%a5%d9%84-1810474.html",
-   "published": "2026-09-20T20:45:50+00:00",
-   "summary": "علمت جريدة هسبريس الإلكترونية أن الاجتماع المطّول لمكتب جمعية هيئات المحامين بالمغرب، الأحد، قد انتهى بقرار مواصلة التوقف الشامل عن أداء الخدمات المهنية إلى غاية افتتاح السنة التشريعية المقبلة. ووفق المعطيات التي استقتها الجريدة، فإن الاجتماع، الذي شهد نقاشات بين أعضاء المكتب التنفيذي لجمعية هيئات المحامين بالمغرب امتدّت لساعات، اتخذّ القرار بمواصلة الإضراب الشامل إلى [&#8230;]\nThe post جمعية هيئا"
   },
   {
    "source": "TASS",
@@ -1573,15 +1945,6 @@
    "summary": "Jovenel Moïse, 53, was shot dead in July 2021 in a killing which sparked chaos in HaitiEighteen people have been arrested in association with the 2021 assassination of the Haitian president Jovenel Moïse, according to US officials.Moïse, 53, was shot dead on 7 July 2021 at his private residence by a hired group of about 20 military-trained Colombian mercenaries. His security detail did not interve"
   },
   {
-   "source": "SANA",
-   "country": "Syria",
-   "tier": "4",
-   "title": "مقتل ستة جنود باكستانيين والقضاء على ثمانية مسلحين في اشتباك شمال غرب ‏البلاد",
-   "link": "https://sana.sy/international/2585697/",
-   "published": "2026-09-20T20:17:14+00:00",
-   "summary": "أعلن الجيش الباكستاني، اليوم الأحد، مقتل ستة من جنوده، بينهم ضابطان، والقضاء ‏على ثمانية مسلحين خلال اشتباك شمال غرب البلاد."
-  },
-  {
    "source": "An-Nahar",
    "country": "Lebanon",
    "tier": "3",
@@ -1625,15 +1988,6 @@
    "link": "https://www.premiumtimesng.com/opinion/911110-remembering-olatunji-akinwande-braithwaite-1933-2016-by-chidi-anselm-odinkalu.html",
    "published": "2026-09-20T20:12:54+00:00",
    "summary": "The contest for the presidency of Nigeria in the election on 11 August 1979 was between five candidates. Nnamdi Azikiwe of the Nigerian Peoples Party was born on 16 November 1904. On election day in 1974, he was over 74 years. Obafemi Awolowo of the Unity Party of Nigeria was over 70. He was born [&#8230;]\nThe post Remembering Olatunji Akinwande Braithwaite (1933-2016), By Chidi Anselm Odinkalu ap"
-  },
-  {
-   "source": "Financial Times",
-   "country": "United Kingdom",
-   "tier": "2",
-   "title": "German chancellor Merz vows to stay on despite ‘disaster’ in regional elections",
-   "link": "https://www.ft.com/content/d74ce82a-2a15-404a-ae3a-3921e887bab3?syn-25a6b1a6=1",
-   "published": "2026-09-20T20:11:43+00:00",
-   "summary": "Partial results suggest CDU may not secure parliamentary representation in Mecklenburg-Vorpommern"
   },
   {
    "source": "n-tv",
@@ -1726,15 +2080,6 @@
    "summary": "Officers were called to Shirley Precinct in Southampton after calls about a youngster being attacked by a hound - thought to be a German Shepherd."
   },
   {
-   "source": "The Independent",
-   "country": "United Kingdom",
-   "tier": "2",
-   "title": "Royal family news live: Prince Harry should get security now he’s in UK says Earl Spencer as he doubles down on claims about King",
-   "link": "https://www.independent.co.uk/news/uk/home-news/earl-spencer-book-king-charles-response-diana-harry-live-updates-b3052283.html",
-   "published": "2026-09-20T19:49:06+00:00",
-   "summary": "Princess Diana’s brother has insisted he is ‘telling the truth’ about his bombshell allegations"
-  },
-  {
    "source": "La Libre",
    "country": "Belgium",
    "tier": "2",
@@ -1744,15 +2089,6 @@
    "summary": "Le président ukrainien Volodymyr Zelensky a indiqué avoir convenu avec son homologue américain Donald Trump d'une rencontre à New York, à l'issue d'un entretien téléphonique dimanche. ..."
   },
   {
-   "source": "Punch",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "Gunmen kill village head in Kebbi",
-   "link": "https://punchng.com/gunmen-kill-village-head-in-kebbi/?utm_source=rss.punchng.com&utm_medium=web",
-   "published": "2026-09-20T19:47:58+00:00",
-   "summary": "Gunmen have killed and beheaded the village head of Lafagu community in Bagudo Local Government Area of Kebbi State, the police have confirmed.\n\nRead More: https://punchng.com/gunmen-kill-village-head-in-kebbi/"
-  },
-  {
    "source": "Vanguard",
    "country": "Nigeria",
    "tier": "3",
@@ -1760,6 +2096,15 @@
    "link": "https://www.vanguardngr.com/2026/09/troops-rescue-two-kidnap-victims-arrest-12-in-plateau/",
    "published": "2026-09-20T19:47:56+00:00",
    "summary": "By Kingsley Omonobi JOS — Troops of Operation Enduring Peace have rescued two kidnapped victims, arrested 12 suspects and recovered weapons during separate operations in Plateau State. Captain Polycarp Oteh, Media Information Officer for the operation, disclosed this in a statement on Sunday, saying the operations were conducted in different parts of the state. He [&#8230;]\nThe post Troops rescue"
+  },
+  {
+   "source": "Al-Jazeera Libya",
+   "country": "Libya",
+   "tier": "3",
+   "title": "انفجار في موقع للجيش السوري بمحيط بلدة العيس جنوبي ‏حلب",
+   "link": "https://www.aljazeera.net/news/2026/9/21/%d8%b9%d8%a7%d8%ac%d9%84-%d8%b3%d8%a7%d9%86%d8%a7-%d8%a7%d9%86%d9%81%d8%ac%d8%a7%d8%b1-%d9%85%d8%b3%d8%aa%d9%88%d8%af%d8%b9-%d9%84%d9%84%d8%b0%d8%ae%d9%8a%d8%b1%d8%a9-%d9%81%d9%8a?traffic_source=rss",
+   "published": "2026-09-20T19:47:02+00:00",
+   "summary": "أفادت وكالة الأنباء السورية الرسمية (سانا) بوقوع انفجار قوي في أحد مواقع الجيش السوري بمحيط بلدة العيس جنوب حلب، أعقبه دوي انفجارات متتالية."
   },
   {
    "source": "TASS",
@@ -1805,6 +2150,15 @@
    "link": "https://www.dailymaverick.co.za/article/2026-09-20-cape-town-risks-monument-to-management-failure-just-before-municipal-elections/",
    "published": "2026-09-20T19:42:43+00:00",
    "summary": "Cape Town’s plan to trap and confine Seaforth and Waterfall baboons before rolling out coexistence measures sparks outcry over management failure, welfare and environmental responsibility."
+  },
+  {
+   "source": "Shehab News",
+   "country": "Palestine",
+   "tier": "4",
+   "title": "إيران مُحذرة: لدينا معلومات باستعداد الولايات المتحدة شن هجوم كبير علينا",
+   "link": "https://shehabnews.com/post/164438/%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85-%D8%AD%D8%B0%D8%B1%D8%A9-%D9%84%D8%AF%D9%8A%D9%86%D8%A7-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA-%D8%A8%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9-%D8%B4%D9%86-%D9%87%D8%AC%D9%88%D9%85-%D9%83%D8%A8%D9%8A%D8%B1-%D8%B9%D9%84%D9%8A%D9%86%D8%A7",
+   "published": "2026-09-20T19:42:00+00:00",
+   "summary": "أكدت إيران، يوم الأحد، أن معلومات وصلتها تفيد باستعداد الولايات المتحدة لشن هجوم كبير عليها، محذرة من الإقدام على هذه الخطوة."
   },
   {
    "source": "Gulf News",
@@ -1897,15 +2251,6 @@
    "summary": "Zusammentreffen wohl nächste Woche in New York +++ Russland beklagt Cyberattacken auf Parlamentswahl +++ Ukraine greift Großraum Moskau am letzten Wahltag an +++ alle Neuigkeiten im Liveblog"
   },
   {
-   "source": "Punch",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "Soldiers rescue two kidnap victims, arrest 11 suspects in Plateau",
-   "link": "https://punchng.com/soldiers-rescue-two-kidnap-victims-arrest-11-suspects-in-plateau/?utm_source=rss.punchng.com&utm_medium=web",
-   "published": "2026-09-20T19:11:32+00:00",
-   "summary": "Troops of Operation Enduring Peace have rescued two kidnap victims and arrested 11 suspected members of a kidnapping syndicate in Plateau State.\n\nRead More: https://punchng.com/soldiers-rescue-two-kidnap-victims-arrest-11-suspects-in-plateau/"
-  },
-  {
    "source": "Cumhuriyet",
    "country": "Turkey",
    "tier": "4",
@@ -1933,15 +2278,6 @@
    "summary": "Jose Mourinho has attacked La Liga referees after Real Madrid’s derby defeat, bringing printed evidence and questioning officials over Atletico’s 2-1 win in Spain."
   },
   {
-   "source": "Gulf News",
-   "country": "United Arab Emirates",
-   "tier": "4",
-   "title": "Saudi Arabia: Seven members of one family among nine killed in horrific Al Ahsa crash",
-   "link": "https://gulfnews.com/world/gulf/saudi/saudi-arabia-seven-members-of-one-family-among-nine-killed-in-horrific-al-ahsa-crash-1.500681756",
-   "published": "2026-09-20T19:05:49+00:00",
-   "summary": ""
-  },
-  {
    "source": "TSA Algerie",
    "country": "Algeria",
    "tier": "3",
@@ -1967,15 +2303,6 @@
    "link": "https://www.bbc.co.uk/news/articles/cm36l2pye2kwo?at_medium=RSS&at_campaign=rss",
    "published": "2026-09-20T19:04:11+00:00",
    "summary": "Aleema Khanum is accused of mobilising her brother’s supporters ahead of country-wide protests."
-  },
-  {
-   "source": "Gulf News",
-   "country": "United Arab Emirates",
-   "tier": "4",
-   "title": "Flash floods in Keralam: Landslide kills 2, injures 1 critically after shed buried in mud",
-   "link": "https://gulfnews.com/world/asia/india/flash-floods-in-keralam-landslide-kills-2-injures-1-critically-after-shed-buried-in-mud-1.500681755",
-   "published": "2026-09-20T19:03:53+00:00",
-   "summary": ""
   },
   {
    "source": "The Irish Times",
@@ -2041,15 +2368,6 @@
    "summary": "Tensions grow as Trump tells Fox News he is considering ‘wiping Iran out’ after attacks on Riyadh by Houthi rebelsGovernments across the Middle East are bracing for an escalation of violence after Iran claimed it had received intelligence that the US was preparing for a renewed bombing campaign against the Islamic Republic.In a potential sign of growing tensions before the UN general assembly in N"
   },
   {
-   "source": "Punch",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "Evening recap: Shettima to lead UNGA delegation, OK movement demands apology from NDC, ex-Kogi gov dies, other top stories",
-   "link": "https://punchng.com/evening-recap-shettima-to-lead-unga-delegation-ok-movement-demands-apology-from-ndc-ex-kogi-gov-dies-other-top-stories/?utm_source=rss.punchng.com&utm_medium=web",
-   "published": "2026-09-20T18:56:40+00:00",
-   "summary": "President Bola Tinubu has mandated Vice President Kashim Shettima to lead Nigeria’s delegation to the 81st United Nations General Assembly in New York. Former Kogi State Governor Alhaji Ibrahim Idris has died in the United Kingdom at the age of 77. In politics, the All Progressives Congress won four of five legislative by-elections held on\n\nRead More: https://punchng.com/evening-recap-shettima-to-"
-  },
-  {
    "source": "TheJournal.ie",
    "country": "Ireland",
    "tier": "2",
@@ -2104,22 +2422,22 @@
    "summary": "Policia e Kosovës ka njoftuar se po vazhdon angazhimin e kapaciteteve njerëzore dhe logjistike lidhur me protestën e paralajmëruar për sot në orën 21:00 në sheshin qendror të Prishtinës, në kundërshtim me aktgjykimin e Gjykatës Speciale në Hagë.Në një komunikatë, Policia ka thënë se pas..."
   },
   {
+   "source": "Kurir",
+   "country": "Serbia",
+   "tier": "3",
+   "title": "BOMBA U REGIONU! Dejan Stanković seda na vrelu klupu? Prvi pik uprave!",
+   "link": "https://www.kurir.rs/sport/fudbal/10110034/dejan-stankovic-ludogorec",
+   "published": "2026-09-20T18:37:57+00:00",
+   "summary": ""
+  },
+  {
    "source": "Irish Examiner",
    "country": "Ireland",
    "tier": "2",
-   "title": "Four killed in separate crashes in Waterford, Wexford, Limerick and Meath on Sunday",
+   "title": "Four people killed in separate crashes in four counties on Sunday",
    "link": "https://www.irishexaminer.com/news/munster/arid-41913298.html",
    "published": "2026-09-20T18:35:00+00:00",
    "summary": "A person has been killed in a crash between a car and a bus in County Waterford. In Limerick, a man aged in his 20s died, and two more people were injured with one in a critical condition. In Wexford, a motorcyclist in his 50s died. In Meath, a man aged in his 50s died"
-  },
-  {
-   "source": "Vanguard",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "37 miners’ deaths: NSCDC parades suspended commandant, officers",
-   "link": "https://www.vanguardngr.com/2026/09/37-miners-deaths-nscdc-parades-suspended-commandant-officers/",
-   "published": "2026-09-20T18:34:46+00:00",
-   "summary": "By Omeiza Ajayi ABUJA: The Nigeria Security and Civil Defence Corps NSCDC has arrested and detained 24 personnel in connection with the death of 37 suspected illegal miners in Niger State, parading suspended Niger State Commandant, Commandant Subaru Siyaka Aniviye, and 23 other officers at the Corps Headquarters in Abuja. The Corps also ordered the [&#8230;]\nThe post 37 miners&#8217; deaths: NSCDC"
   },
   {
    "source": "Al Jazeera",
@@ -2302,15 +2620,6 @@
    "summary": "Gideon Arinze in Enugu Ahead of the 2027 general election, the Nigeria Democratic Congress (NDC) has suffered defection in Enugu State, with over 6,000 of its members joining the Peoples"
   },
   {
-   "source": "Sydsvenskan",
-   "country": "Sweden",
-   "tier": "2",
-   "title": "Håll ut i höststormen – lugnare vecka väntar: ”Fortfarande sommar”",
-   "link": "https://www.sydsvenskan.se/skane/hall-ut-i-hoststormen-lugnare-vecka-vantar-fortfarande-sommar/",
-   "published": "2026-09-20T18:01:39+00:00",
-   "summary": "Efter en blåsig, blöt och bökig helg väntar en torrare och ganska varm vecka. – Det är fortfarande sommar i en stor del av södra Sverige, säger Anna Belking, meteorolog vid SMHI."
-  },
-  {
    "source": "Proto Thema",
    "country": "Greece",
    "tier": "2",
@@ -2323,7 +2632,7 @@
    "source": "Al-Jazeera Libya",
    "country": "Libya",
    "tier": "3",
-   "title": "إيران مباشر.. ترمب لا يستبعد استئناف الهجمات الواسعة وطهران تهدد باستهداف القواعد الأمريكية",
+   "title": "إيران مباشر.. ترمب لا يستبعد استئناف الهجمات وطهران تتوعد القواعد الأمريكية",
    "link": "https://www.aljazeera.net/news/liveblog/2026/9/21/%d8%a5%d9%8a%d8%b1%d8%a7%d9%86-%d9%85%d8%a8%d8%a7%d8%b4%d8%b1-%d8%aa%d8%b1%d9%85%d8%a8-%d9%84%d8%a7-%d9%8a%d8%b3%d8%aa%d8%a8%d8%b9%d8%af-%d8%a7%d8%b3%d8%aa%d8%a6%d9%86%d8%a7%d9%81?traffic_source=rss",
    "published": "2026-09-20T18:01:00+00:00",
    "summary": "لوّح الرئيس الأمريكي بخيارات حاسمة تجاه إيران، غير مستبعد استئناف هجمات واسعة النطاق ضدها. وهددت إيران باستهداف القواعد والمصالح الأمريكية إذا شنت الولايات المتحدة وحلفاؤها هجوما جديدا عليها."
@@ -2428,15 +2737,6 @@
    "summary": "The incident occurred in the Bride Valley Park area of Fairhill on the northside of Cork City on Saturday night"
   },
   {
-   "source": "Channels TV",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "Police Raid Crime Flashpoints, Arrest 300 For Screening In FCT",
-   "link": "https://www.channelstv.com/2026/09/20/police-raid-crime-flashpoints-arrest-300-for-screening-in-fct/",
-   "published": "2026-09-20T17:54:18+00:00",
-   "summary": "The police said knives, a toy gun, cannabis and other illicit drugs were recovered during the raid.\nThe post Police Raid Crime Flashpoints, Arrest 300 For Screening In FCT appeared first on Channels Television."
-  },
-  {
    "source": "La Libre",
    "country": "Belgium",
    "tier": "2",
@@ -2462,33 +2762,6 @@
    "link": "https://www.thejournal.ie/fulham-manchester-united-draw-2-7168018-Sep2026/",
    "published": "2026-09-20T17:50:14+00:00",
    "summary": "Comical Lisandro Martinez own goal sums up display before Matheus Cunha’s deflected strike salvages 1-1 draw."
-  },
-  {
-   "source": "Punch",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "La Liga: Atletico Madrid beat Real Madrid 2-1 in tense derby clash",
-   "link": "https://punchng.com/la-liga-atletico-madrid-beat-real-madrid-2-1-in-tense-derby-clash/?utm_source=rss.punchng.com&utm_medium=web",
-   "published": "2026-09-20T17:47:21+00:00",
-   "summary": "Atletico Madrid defeated 10-man Real Madrid 2-1 in a tense La Liga derby, moving them to second place and six points behind leaders Barcelona.\n\nRead More: https://punchng.com/la-liga-atletico-madrid-beat-real-madrid-2-1-in-tense-derby-clash/"
-  },
-  {
-   "source": "The Guardian",
-   "country": "United Kingdom",
-   "tier": "2",
-   "title": "Cunha strikes late to deny Fulham and salvage point for Manchester United",
-   "link": "https://www.theguardian.com/football/2026/sep/20/fulham-manchester-united-premier-league-match-report",
-   "published": "2026-09-20T17:46:05+00:00",
-   "summary": "To paraphrase a former Manchester United manager, Michael Carrick knew that the storm would come. Everything went a little too perfectly for him in the second half of last season. There would be ill winds at some point. Which was what Carrick could feel before this visit to Fulham. What were his emotions afterwards?Relief was surely the main thing. Because after the derby defeat by Manchester City"
-  },
-  {
-   "source": "Punch",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "2027: Bring your record, not social-media slogans, Sokoto gov’s aide tells opposition",
-   "link": "https://punchng.com/2027-bring-your-record-not-social-media-slogans-sokoto-govs-aide-tells-opposition/?utm_source=rss.punchng.com&utm_medium=web",
-   "published": "2026-09-20T17:45:48+00:00",
-   "summary": "An aide to the Sokoto State Governor has challenged opposition politicians to present their service records to the electorate ahead of the 2027 election.\n\nRead More: https://punchng.com/2027-bring-your-record-not-social-media-slogans-sokoto-govs-aide-tells-opposition/"
   },
   {
    "source": "The Independent",
@@ -2669,15 +2942,6 @@
    "link": "https://www.france24.com/en/tv-shows/spotlight/20260920-germany-merz-vows-to-push-on-despite-setbacks",
    "published": "2026-09-20T17:20:15+00:00",
    "summary": "German voters have delivered a fresh setback to Chancellor Friedrich Merz in two key regional elections."
-  },
-  {
-   "source": "Channels TV",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "Atletico Beat Real Madrid In Tense Derby Clash",
-   "link": "https://www.channelstv.com/2026/09/20/atletico-beat-real-madrid-in-tense-derby-clash/",
-   "published": "2026-09-20T17:19:27+00:00",
-   "summary": "Atletico rose to second, five points behind Barca and one ahead of Real Madrid, who chalked up a second defeat of the campaign.\nThe post Atletico Beat Real Madrid In Tense Derby Clash appeared first on Channels Television."
   },
   {
    "source": "Asharq Al-Awsat",
@@ -2977,15 +3241,6 @@
    "summary": "Περισυνελέγησαν από σκάφος της Frontex και μεταφέρονται στο λιμάνι της Παλαιοχώρας"
   },
   {
-   "source": "Le Monde",
-   "country": "France",
-   "tier": "2",
-   "title": "Elections régionales en Allemagne : le parti d’extrême droite AfD en forte progression dans le land de Mecklembourg-Poméranie-Occidentale",
-   "link": "https://www.lemonde.fr/international/article/2026/09/20/elections-regionales-en-allemagne-le-parti-d-extreme-droite-afd-en-forte-progression-dans-le-land-de-mecklembourg-pomeranie-occidentale_6778399_3210.html",
-   "published": "2026-09-20T16:34:57+00:00",
-   "summary": "L’AfD devrait obtenir près de 38 % des suffrages dimanche lors des élections régionales de ce land du nord-est du pays, deux semaines après le séisme politique provoqué par son score historique en Saxe-Anhalt. Dans la ville-Etat de Berlin, le parti de gauche radicale Die Linke remporte les élections."
-  },
-  {
    "source": "Irish Independent",
    "country": "Ireland",
    "tier": "2",
@@ -3049,15 +3304,6 @@
    "summary": "A felszólalók szerint a Tisza bukni fog."
   },
   {
-   "source": "Premium Times",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "CPPE raises concern over foreign traders’ growing presence in Nigeria’s retail sector",
-   "link": "https://www.premiumtimesng.com/news/top-news/911051-cppe-raises-concern-over-foreign-traders-growing-presence-in-nigerias-retail-sector.html",
-   "published": "2026-09-20T16:18:27+00:00",
-   "summary": "CPPE’s call followed a protest by some auto spare parts traders at the Lagos International Trade Fair Complex against the alleged involvement of some Chinese nationals in retail trading.\nThe post CPPE raises concern over foreign traders’ growing presence in Nigeria’s retail sector appeared first on Premium Times Nigeria."
-  },
-  {
    "source": "Legit.ng",
    "country": "Nigeria",
    "tier": "3",
@@ -3088,10 +3334,10 @@
    "source": "Novinky.cz",
    "country": "Czech Republic",
    "tier": "2",
-   "title": "AfD podle prognóz vyhrála další zemské volby",
+   "title": "AfD vyhrála další zemské volby",
    "link": "https://www.novinky.cz/clanek/zahranicni-evropa-v-nemecku-skoncily-dvoji-zemske-volby-radikalni-strany-mohou-posilit-40598641",
    "published": "2026-09-20T16:03:16+00:00",
-   "summary": "Uzavřením volebních místností v 18:00 skončily v Německu zemské volby v Meklenbursku-Předním Pomořansku a Berlíně. V Meklenbursku-Předním Pomořansku podle prognóz volby vyhrála Alternativa pro Německo (AfD), druhá je sociální demokracie. Vládní CDU má zhruba pět procent. V Berlíně dle prognóz s náskokem zvítězila Levice, CDU je druhá, AfD třetí. Protestní AfD nyní vede i v celostátních průzkumech"
+   "summary": "Uzavřením volebních místností v 18:00 skončily v Německu zemské volby v Meklenbursku-Předním Pomořansku a Berlíně. V Meklenbursku-Předním Pomořansku vyhrála Alternativa pro Německo (AfD), druhá je sociální demokracie. Vládní CDU se do sněmu ve Zvěříně (Schwerinu) nedostala. V Berlíně dle prognóz s náskokem zvítězila Levice, CDU je druhá, AfD třetí. Protestní AfD nyní vede i v celostátních průzkume"
   },
   {
    "source": "Rzeczpospolita",
@@ -3137,15 +3383,6 @@
    "link": "https://www.dailymail.com/news/article-16146129/Moment-blind-driver-ploughs-cyclist-forgetting-wear-glasses-sickening-crash-avoiding-prison-sentence.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
    "published": "2026-09-20T16:00:55+00:00",
    "summary": "CCTV footage shows Uchenna Agunenye, 48, behind the wheel of his silver Citroën C4 before smashing into a cyclist."
-  },
-  {
-   "source": "Kurir",
-   "country": "Serbia",
-   "tier": "3",
-   "title": "Ovih deset jela nikada nemojte podgrevati u mikrotalasnoj: Možete se gorko kajati",
-   "link": "https://www.kurir.rs/zabava/zena/10109715/ovih-deset-jela-nikada-nemojte-podgrevati-u-mikrotalasnoj",
-   "published": "2026-09-20T16:00:37+00:00",
-   "summary": ""
   },
   {
    "source": "AD",
@@ -3301,6 +3538,15 @@
    "summary": "President claims national security justification for controversial Washington monument"
   },
   {
+   "source": "Shehab News",
+   "country": "Palestine",
+   "tier": "4",
+   "title": "مستوطنون يحرقون مركبة ويحاولون اختطاف طفل في بيت أمر شمال الخليل",
+   "link": "https://shehabnews.com/post/164424/%D9%85%D8%B3%D8%AA%D9%88%D8%B7%D9%86%D9%88%D9%86-%D9%8A%D8%AD%D8%B1%D9%82%D9%88%D9%86-%D9%85%D8%B1%D9%83%D8%A8%D8%A9-%D9%88%D9%8A%D8%AD%D8%A7%D9%88%D9%84%D9%88%D9%86-%D8%A7%D8%AE%D8%AA%D8%B7%D8%A7%D9%81-%D8%B7%D9%81%D9%84-%D9%81%D9%8A-%D8%A8%D9%8A%D8%AA-%D8%A3%D9%85%D8%B1-%D8%B4%D9%85%D8%A7%D9%84-%D8%A7%D9%84%D8%AE%D9%84%D9%8A%D9%84",
+   "published": "2026-09-20T15:43:00+00:00",
+   "summary": "أحرق مستوطنون، اليوم الأحد، مركبة، واعتدوا على مواطنين، وحاولوا اختطاف طفل، خلال اقتحامهم منطقة &quot;صافا&quot; في بلدة بيت أمر، شمال الخليل."
+  },
+  {
    "source": "Daily Mail",
    "country": "United Kingdom",
    "tier": "2",
@@ -3364,15 +3610,6 @@
    "summary": "Prima battuta d’arresto a sorpresa per i lariani, che perdono l’occasione di agganciare la testa della classifica, venendo sconfitti dalle reti di Calò e Kvarnadze. Partita super del portiere Palmisani"
   },
   {
-   "source": "AD",
-   "country": "Netherlands",
-   "tier": "2",
-   "title": "Oud-FC Twentespeler Douglas (38) vast op verdenking van huiselijk geweld",
-   "link": "https://www.ad.nl/enschede/oud-fc-twentespeler-douglas-38-vast-op-verdenking-van-huiselijk-geweld~ae8635ab/",
-   "published": "2026-09-20T15:31:06+00:00",
-   "summary": "Oud-profvoetballer Douglas Teixeira (38) is afgelopen week aangehouden op verdenking van het plegen van huiselijk geweld. Vrijdag verlengde de rechter-commissaris zijn voorarrest met veertien dagen, Douglas zit voorlopig vast."
-  },
-  {
    "source": "Al Jazeera",
    "country": "Qatar",
    "tier": "2",
@@ -3434,15 +3671,6 @@
    "link": "https://citizen.digital/article/sudan-gold-mine-collapse-kills-10-injures-21-n390551",
    "published": "2026-09-20T15:24:58+00:00",
    "summary": "Since war erupted in April 2023 between Sudan's army and the paramilitary RSF, the war efforts of both sides have been largely funded by the country's billion-dollar gold trade, in addition to foreign backers."
-  },
-  {
-   "source": "Kurir",
-   "country": "Serbia",
-   "tier": "3",
-   "title": "PODRŠKA ZLOČINCIMA OVK! Albanci protestovali u Beču: Na skupu i rođak Hašima Tačija, razvili zastavu Velike Albanije (VIDEO)",
-   "link": "https://www.kurir.rs/vesti/politika/10109879/protest-albanca-u-becu-protiv-presude-vodjama-ovk",
-   "published": "2026-09-20T15:24:29+00:00",
-   "summary": ""
   },
   {
    "source": "TheJournal.ie",
@@ -3913,15 +4141,6 @@
    "summary": "The Premier League clash pitting Fulham FC at home against Manchester United comes as both teams seek to"
   },
   {
-   "source": "Proto Thema",
-   "country": "Greece",
-   "tier": "2",
-   "title": "Αψίδα του Θριάμβου στην Ουάσινγκτον με drones και ελεύθερους σκοπευτές οραματίζεται ο Τραμπ",
-   "link": "https://www.protothema.gr/world/article/1881626/i-apsida-tou-thriamvou-pou-thelei-na-ftiaxei-o-trab-stin-ouasington-tha-ehei-kai-stratiotiko-rolo/?utm_source=rss",
-   "published": "2026-09-20T13:53:17+00:00",
-   "summary": "Το σχέδιο του Αμερικανού προέδρου προβλέπει εγκαταστάσεις για drones, ελεύθερους σκοπευτές και αποθήκευση πυρομαχικών"
-  },
-  {
    "source": "Libya Herald",
    "country": "Libya",
    "tier": "3",
@@ -3956,6 +4175,15 @@
    "link": "https://www.20minutos.es/cataluna/barcelona/unas-5-500-personas-rechazan-las-calles-barcelona-ampliacion-aeropuerto-prat_7039001_0.html",
    "published": "2026-09-20T13:45:20+00:00",
    "summary": "Bajo el lema 'No a la ampliación. Ni ahora ni nunca' la protesta marchó por el centro de Barcelona, congregando a la mitad de participantes que en 2021"
+  },
+  {
+   "source": "Shehab News",
+   "country": "Palestine",
+   "tier": "4",
+   "title": "مستوطنون يحرقون مركبتين خلال هجوم على بيت أمر",
+   "link": "https://shehabnews.com/post/164412/%D9%85%D8%B3%D8%AA%D9%88%D8%B7%D9%86%D9%88%D9%86-%D9%8A%D8%AD%D8%B1%D9%82%D9%88%D9%86-%D9%85%D8%B1%D9%83%D8%A8%D8%AA%D9%8A%D9%86-%D8%AE%D9%84%D8%A7%D9%84-%D9%87%D8%AC%D9%88%D9%85-%D8%B9%D9%84%D9%89-%D8%A8%D9%8A%D8%AA-%D8%A3%D9%85%D8%B1",
+   "published": "2026-09-20T13:43:00+00:00",
+   "summary": "أضرم مستوطنون، اليوم الأحد، النيران في مركبتين خلال هجوم نفذوه على بلدة بيت أمر، شمال الخليل.\n\nوأفادت مصادر محلية بأن إحراق المركبتين جاء ضمن اعتداءات المستوطنين على البلدة، دون ورود معلومات عن وقوع"
   },
   {
    "source": "Dnevnik",
@@ -4010,15 +4238,6 @@
    "link": "https://www.theguardian.com/us-news/2026/sep/20/trump-triumphal-arch-military-complex",
    "published": "2026-09-20T13:26:23+00:00",
    "summary": "US president on Truth Social claims his new plan for the 250ft arch comes at the ‘strong request’ of the US militaryDonald Trump is proffering a new argument for building his triumphal arch in Washington DC: it will be converted into a “top grade military complex” replete with drone and ammunition storage space and customised sniper facilities on the roof and plaza.In a post on his Truth Social pl"
-  },
-  {
-   "source": "Metro",
-   "country": "United Kingdom",
-   "tier": "2",
-   "title": "Family of teen killed in car crash says ‘world will never be the same’",
-   "link": "https://metro.co.uk/2026/09/20/family-teen-killed-car-crash-says-world-will-never-same-29637430/",
-   "published": "2026-09-20T13:25:13+00:00",
-   "summary": "Acacia Barnett died after the car she was a passenger in veered off the road."
   },
   {
    "source": "La Libre",
@@ -4453,15 +4672,6 @@
    "summary": "Η Αψίδα του Θριάμβου, σύμφωνα με τον Τραμπ, θα κατασκευαστεί στον κυκλικό κόμβο δίπλα στη Memorial Bridge."
   },
   {
-   "source": "Observador",
-   "country": "Portugal",
-   "tier": "2",
-   "title": "13h. Junta de Arroios acusa CM de Lisboa de falhar no lixo",
-   "link": "https://observador.pt/programas/noticiario/as-noticias-das-13h-2451/",
-   "published": "2026-09-20T12:11:39+00:00",
-   "summary": "Em entrevista ao Observador, Vítor Carvalho diz que autarquia não cumpre com obrigações de higiene urbana. Ainda, quase 450 voos foram cancelados ou atrasados  na Rússia devido a ataque com drones."
-  },
-  {
    "source": "Sahara Reporters",
    "country": "Nigeria",
    "tier": "3",
@@ -4604,6 +4814,15 @@
    "link": "https://www.huffingtonpost.it/video/2026/09/20/video/pontida_il_derby_dei_militanti_pro_e_contro_salvini_sempre_con_lui_si_dimetta_subito-22749870/",
    "published": "2026-09-20T11:27:00+00:00",
    "summary": "Le magliette blu con la scritta bianca 'Io sto con Matteo' e quelle bianche con la scritta verde 'Lega Nord fino alla morte'. A Pontida in attesa che inizi il raduno del partito, tra i gazebo che si affacciano sul pratone, fra cui ne spicca uno per la raccolta fondi in sostegno di Mario Roggero, si confrontano le due anime della Lega, quella che sostiene &quot;sempre e fino in fondo&quot; il segre"
+  },
+  {
+   "source": "Shehab News",
+   "country": "Palestine",
+   "tier": "4",
+   "title": "تحذير إيراني: أي هجوم أمريكي سيقابل بضربات في المنطقة",
+   "link": "https://shehabnews.com/post/164405/%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86%D9%8A-%D8%A3%D9%8A-%D9%87%D8%AC%D9%88%D9%85-%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A-%D8%B3%D9%8A%D9%82%D8%A7%D8%A8%D9%84-%D8%A8%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%86%D8%B7%D9%82%D8%A9",
+   "published": "2026-09-20T11:27:00+00:00",
+   "summary": "حذّر مقر &quot;خاتم الأنبياء&quot; الإيراني من أن أي هجوم أمريكي على إيران سيقابل باستهداف مراكز تمركز القوات الأمريكية ومصالحها في المنطقة.\n\nوقال المقر، في بيان، إن الولايات المتحدة، في محاولة للتغطية على ما"
   },
   {
    "source": "The Irish Times",
@@ -4802,15 +5021,6 @@
    "link": "https://www.dailymail.com/tvshowbiz/article-16138997/Love-Island-Molly-Smith-Tom-Clare-Mallorca-wedding-mini-moon-Turkey.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
    "published": "2026-09-20T10:43:33+00:00",
    "summary": "The couple, who met on the dating show's spin-off series in South Africa , tied the knot on the picturesque Spanish island in a lavish ceremony."
-  },
-  {
-   "source": "Adevarul",
-   "country": "Romania",
-   "tier": "2",
-   "title": "Trei fragmente de drone, recuperate din Marea Neagră. Scafandrii militari au intervenit pentru verificarea lor",
-   "link": "https://adevarul.ro/stiri-interne/evenimente/posibil-fragment-de-drona-gasit-in-marea-neagra-2558679.html",
-   "published": "2026-09-20T10:37:03+00:00",
-   "summary": "Scafandrii de luptă EOD din cadrul Forțelor Navale Române au intervenit duminică pentru neutralizarea și recuperarea mai multor fragmente de dronă."
   },
   {
    "source": "Libya Herald",
@@ -5056,13 +5266,13 @@
    "summary": "The US and Denmark have announced a deal on Greenland's security, resolving a diplomatic dispute sparked by President Donald Trump when he threatened to seize the semi-autonomous territory. The exact terms of the deal remain uncertain but it seems Denmark will maintain its sovereignty while the US will be able to develop a significant military presence on the island, and ban their adversaries from"
   },
   {
-   "source": "France 24",
-   "country": "France",
-   "tier": "2",
-   "title": "Yemen's Houthis strike Saudi capital Riyadh for the first time",
-   "link": "https://www.france24.com/en/yemen-s-houthis-strike-saudi-capital-riyadh-for-the-first-time",
-   "published": "2026-09-20T09:38:42+00:00",
-   "summary": "Fighting between Iran-backed Houthi rebels and Saudi Arabia continues to intensify. On Saturday morning, a fire broke out near Riyadh's main airport after Houthis said they launched missiles and drones at Saudi Arabia. On the ground in Yemen, Houthi rebels are pushing east in their fight against Saudi-backed government forces. Story by Caroline Baum."
+   "source": "Shehab News",
+   "country": "Palestine",
+   "tier": "4",
+   "title": "خاص الاحتلال يستهدف الحراك المجتمعي بالضفة عبر اعتقال \"علاء الريماوي\" صاحب مبادرة \"تنازل لله\"",
+   "link": "https://shehabnews.com/post/164397/%D8%AE%D8%A7%D8%B5-%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D8%B3%D8%AA%D9%87%D8%AF%D9%81-%D8%A7%D9%84%D8%AD%D8%B1%D8%A7%D9%83-%D8%A7%D9%84%D9%85%D8%AC%D8%AA%D9%85%D8%B9%D9%8A-%D8%A8%D8%A7%D9%84%D8%B6%D9%81%D8%A9-%D8%B9%D8%A8%D8%B1-%D8%A7%D8%B9%D8%AA%D9%82%D8%A7%D9%84-%D8%B9%D9%84%D8%A7%D8%A1-%D8%A7%D9%84%D8%B1%D9%8A%D9%85%D8%A7%D9%88%D9%8A-%D8%B5%D8%A7%D8%AD%D8%A8-%D9%85%D8%A8%D8%A7%D8%AF%D8%B1%D8%A9-%D8%AA%D9%86%D8%A7%D8%B2%D9%84-%D9%84%D9%84%D9%87",
+   "published": "2026-09-20T09:33:00+00:00",
+   "summary": "خاص – شهاب\n\nبعد أيام من تصاعد التفاعل مع مبادرة &quot;تنازل لله&quot; التي أطلقها الصحفي والأسير المحرر علاء الريماوي، وأفضت إلى إسقاط ديون بملايين الشواكل عن متعثرين، أعادت قوات الاحتلال الإسرائيلي اعتقاله م"
   },
   {
    "source": "The Citizen",
@@ -5243,15 +5453,6 @@
    "link": "https://www.gp.se/sport/fotboll/ifk-goteborg/alexander-simmelhack-hoppas-bli-nasta-danska-succe-i-allsvenskan.4a2f637b-8074-44f4-be32-0a5c02ed4c91",
    "published": "2026-09-20T08:25:07+00:00",
    "summary": "Alexander Simmelhack har fått en flygande start i IFK Göteborg – hyllas stort."
-  },
-  {
-   "source": "La Stampa",
-   "country": "Italy",
-   "tier": "2",
-   "title": "Germania, a Berlino vince Linke. In Meclemburgo prima Afd, disastro Cdu. Merz non lascia",
-   "link": "https://www.lastampa.it/esteri/2026/09/20/diretta/elezioni_germania_2026_risultati_berlino_meclemburgo-15744000/",
-   "published": "2026-09-20T08:22:00+00:00",
-   "summary": "La capitale vira a sinistra ma non si arresta la crescita dell’estrema destra"
   },
   {
    "source": "The Telegraph",
@@ -5596,6 +5797,24 @@
    "summary": "Scam emails are increasingly using psychological tricks, such as using near-identical URLs like miсrosoft.comYou’ve read the email carefully and it looks legitimate. The link it asks you to click on has none of the usual red flags: there are no weird numbers or extra parts to the URL. You feel safe to proceed.But if you had looked slightly closer you may have noticed something slightly wrong with"
   },
   {
+   "source": "Deutsche Welle",
+   "country": "Germany",
+   "tier": "2",
+   "title": "Far-right AfD wins state election in Mecklenburg-Western Pomerania, CDU fails to enter parliament",
+   "link": "https://www.dw.com/en/far-right-afd-wins-state-election-in-mecklenburg-western-pomerania-cdu-fails-to-enter-parliament/live-79322092?maca=en-rss-en-all-1573-rdf",
+   "published": "2026-09-20T06:00:00+00:00",
+   "summary": "The far-right AfD has come first in the state election in Mecklenburg-Western Pomerania, with Chancellor Merz's CDU failing to enter parliament. Meanwhile the Left Party took first place in Berlin. DW has more."
+  },
+  {
+   "source": "Shehab News",
+   "country": "Palestine",
+   "tier": "4",
+   "title": "وقفة في شيكاغو للمطالبة بالإفراج عن الأطباء والطواقم الطبية الفلسطينية المعتقلة",
+   "link": "https://shehabnews.com/post/164388/%D9%88%D9%82%D9%81%D8%A9-%D9%81%D9%8A-%D8%B4%D9%8A%D9%83%D8%A7%D8%BA%D9%88-%D9%84%D9%84%D9%85%D8%B7%D8%A7%D9%84%D8%A8%D8%A9-%D8%A8%D8%A7%D9%84%D8%A5%D9%81%D8%B1%D8%A7%D8%AC-%D8%B9%D9%86-%D8%A7%D9%84%D8%A3%D8%B7%D8%A8%D8%A7%D8%A1-%D9%88%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D9%82%D9%85-%D8%A7%D9%84%D8%B7%D8%A8%D9%8A%D8%A9-%D8%A7%D9%84%D9%81%D9%84%D8%B3%D8%B7%D9%8A%D9%86%D9%8A%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D8%AA%D9%82%D9%84%D8%A9",
+   "published": "2026-09-20T06:00:00+00:00",
+   "summary": "تواصل الجالية الفلسطينية في الولايات المتحدة، بمشاركة منظمات إنسانية وحقوقية، تنظيم فعاليات احتجاجية للمطالبة بالإفراج عن الأطباء والممرضين والعاملين في القطاع الصحي الفلسطيني المعتقلين لدى سلطات الاح"
+  },
+  {
    "source": "Zaman Al-Wasl",
    "country": "Syria",
    "tier": "4",
@@ -5612,6 +5831,15 @@
    "link": "https://www.nrk.no/nyheter/ukraina-angrep-oljeraffineri-i-moskva-1.18030537",
    "published": "2026-09-20T05:42:15+00:00",
    "summary": "Et oljeraffineri i Moskva har fått skader som følge av et droneangrep natt til søndag, ifølge byens ordfører.\nDet skal ha vært ett av de største droneangrepene så langt i krigen.\n– Våre langtrekkende angrep fikk svært stor effekt i Moskva-regionen i natt. Dette er verdier for milliarder av dollar som holder krigsmaskineriet i gang, skriver den ukrainske presidenten Volodymyr Zelenskyj på Telegram."
+  },
+  {
+   "source": "Shehab News",
+   "country": "Palestine",
+   "tier": "4",
+   "title": "الاحتلال يواصل اقتحام المغير ويعتقل 28 مواطناً ويغلق مدخلها الوحيد",
+   "link": "https://shehabnews.com/post/164386/%D8%A7%D9%84%D8%A7%D8%AD%D8%AA%D9%84%D8%A7%D9%84-%D9%8A%D9%88%D8%A7%D8%B5%D9%84-%D8%A7%D9%82%D8%AA%D8%AD%D8%A7%D9%85-%D8%A7%D9%84%D9%85%D8%BA%D9%8A%D8%B1-%D9%88%D9%8A%D8%B9%D8%AA%D9%82%D9%84-28-%D9%85%D9%88%D8%A7%D8%B7%D9%86%D8%A7-%D9%88%D9%8A%D8%BA%D9%84%D9%82-%D9%85%D8%AF%D8%AE%D9%84%D9%87%D8%A7-%D8%A7%D9%84%D9%88%D8%AD%D9%8A%D8%AF",
+   "published": "2026-09-20T05:42:00+00:00",
+   "summary": "تواصل قوات الاحتلال، منذ فجر اليوم الأحد، اقتحام بلدة المغير شرق رام الله، في ظل حملة اعتقالات واسعة طالت 28 مواطناً، بالتزامن مع إغلاق مدخل البلدة الوحيد وتشديد الإجراءات العسكرية فيها.\n\nوأفادت مصا"
   },
   {
    "source": "Il Giornale",
@@ -5639,6 +5867,15 @@
    "link": "https://tass.com/politics/2190221",
    "published": "2026-09-20T05:28:42+00:00",
    "summary": "The Russian Central Election Commission said on its website"
+  },
+  {
+   "source": "Shehab News",
+   "country": "Palestine",
+   "tier": "4",
+   "title": "أطفال غزة ليسوا \"إرهابيين\" مؤجلين.. ألبانيزي ترد على تبرير قتل الطفولة",
+   "link": "https://shehabnews.com/post/164383/%D8%A3%D8%B7%D9%81%D8%A7%D9%84-%D8%BA%D8%B2%D8%A9-%D9%84%D9%8A%D8%B3%D9%88%D8%A7-%D8%A5%D8%B1%D9%87%D8%A7%D8%A8%D9%8A%D9%8A%D9%86-%D9%85%D8%A4%D8%AC%D9%84%D9%8A%D9%86-%D8%A3%D9%84%D8%A8%D8%A7%D9%86%D9%8A%D8%B2%D9%8A-%D8%AA%D8%B1%D8%AF-%D8%B9%D9%84%D9%89-%D8%AA%D8%A8%D8%B1%D9%8A%D8%B1-%D9%82%D8%AA%D9%84-%D8%A7%D9%84%D8%B7%D9%81%D9%88%D9%84%D8%A9",
+   "published": "2026-09-20T05:17:00+00:00",
+   "summary": "استحضرت المقررة الخاصة للأمم المتحدة المعنية بحالة حقوق الإنسان في الأراضي الفلسطينية المحتلة، فرانشيسكا ألبانيزي، محاكمات نورمبرغ، رداً على تصريحات لعارضة الأزياء &quot;الإسرائيلية&quot; ساراي جيفاتي بشأن قتل"
   },
   {
    "source": "Il Giornale",
@@ -5693,6 +5930,15 @@
    "link": "https://tass.com/politics/2190215",
    "published": "2026-09-20T04:52:58+00:00",
    "summary": "Rodion Miroshnik added that regional authorities have a vast experience of organizing the voting process under such circumstances"
+  },
+  {
+   "source": "Shehab News",
+   "country": "Palestine",
+   "tier": "4",
+   "title": "بعد أسابيع من الصمت.. الإمارات توضح رسميا ما حدث قبل 7 أكتوبر",
+   "link": "https://shehabnews.com/post/164374/%D8%A8%D8%B9%D8%AF-%D8%A3%D8%B3%D8%A7%D8%A8%D9%8A%D8%B9-%D9%85%D9%86-%D8%A7%D9%84%D8%B5%D9%85%D8%AA-%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AA%D9%88%D8%B6%D8%AD-%D8%B1%D8%B3%D9%85%D9%8A%D8%A7-%D9%85%D8%A7-%D8%AD%D8%AF%D8%AB-%D9%82%D8%A8%D9%84-7-%D8%A3%D9%83%D8%AA%D9%88%D8%A8%D8%B1",
+   "published": "2026-09-20T04:52:00+00:00",
+   "summary": "أوضح مصدر إماراتي رسمي، ما أثير مؤخرًا بشأن تحذير إماراتي مزعوم لـ&quot;إسرائيل&quot; من هجوم وشيك لحركة حماس قبل السابع من أكتوبر/تشرين الأول 2023، وذلك بعد تقرير نشرته صحيفة &quot;هآرتس&quot; الإسرائيلية حول اتصالات جر"
   },
   {
    "source": "TASS",
@@ -5857,33 +6103,6 @@
    "summary": "På lördagskvällen håller Ed Sheeran sin första konsert sedan kritikstormen då Macklemore sparkats som förband. Från scenen ber artisten om ursäkt och kallar situationen i Gaza för ”katastrofal och oförsvarlig”."
   },
   {
-   "source": "This Day",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "Insecurity: FERMA Begins Safety Interventions on Ondo Federal Roads",
-   "link": "https://www.thisdaylive.com/2026/09/20/insecurity-ferma-begins-safety-interventions-on-ondo-federal-roads/",
-   "published": "2026-09-20T03:25:05+00:00",
-   "summary": "Fidelis David in Akure The Federal Road Maintenance Agency (FERMA) has begun clearing bushes and desilting drainage channels along the Owo–Ikare–Arigidi–Ekiti State border road in Ondo State, in a move"
-  },
-  {
-   "source": "This Day",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "Showunmi: Atiku’s Subsidy Proposal Will Take Nigeria Back to Egypt",
-   "link": "https://www.thisdaylive.com/2026/09/20/showunmi-atikus-subsidy-proposal-will-take-nigeria-back-to-egypt/",
-   "published": "2026-09-20T03:24:20+00:00",
-   "summary": "•Launches mobilisation programme to support Tinubu’s re-election bid James Sowole in Abeokuta The Chief Promoter of the Alternative Movement, Otunba Segun Showunmi, yesterday criticised former Vice-President Atiku Abubakar’s proposal to"
-  },
-  {
-   "source": "This Day",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "2027 Elections: Peter Obi Visits Kaduna, Cautions Politicians Against Unrealistic Promises",
-   "link": "https://www.thisdaylive.com/2026/09/20/2027-elections-peter-obi-visits-kaduna-cautions-politicians-against-unrealistic-promises/",
-   "published": "2026-09-20T03:22:50+00:00",
-   "summary": "Ahead of the 2027 general election, the presidential candidate of the Nigeria Democratic Congress (NDC), Peter Obi, has called on candidates of other political parties to refrain from making unrealistic"
-  },
-  {
    "source": "TASS",
    "country": "Russia",
    "tier": "4",
@@ -5909,33 +6128,6 @@
    "link": "https://tass.com/world/2190187",
    "published": "2026-09-20T02:33:53+00:00",
    "summary": "Armando Mema added that the EU remains one of the main suppliers of weapons for Kiev"
-  },
-  {
-   "source": "This Day",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "Time to Bid By-elections Farewell in Nigeria",
-   "link": "https://www.thisdaylive.com/2026/09/20/time-to-bid-by-elections-farewell-in-nigeria/",
-   "published": "2026-09-20T02:18:53+00:00",
-   "summary": "The financial burden of conducting elections in Nigeria has necessitated calls for the National Assembly to amend relevant sections of the 1999 Constitution and adopt the United States model of"
-  },
-  {
-   "source": "Asharq Al-Awsat",
-   "country": "Saudi Arabia",
-   "tier": "4",
-   "title": "ترمب يجيز عقوبات على روسيا ومدفيديف يتوعّد",
-   "link": "https://aawsat.com/node/5320308",
-   "published": "2026-09-20T02:14:55+00:00",
-   "summary": "وقّع الرئيس الأميركي دونالد ترمب، مساء الجمعة، مشروع قانون يجيز فرض عقوبات جديدة ضد روسيا بسبب استمرار حربها في أوكرانيا، وذلك بعد إقرار من الكونغرس تأخر لأكثر."
-  },
-  {
-   "source": "De Volkskrant",
-   "country": "Netherlands",
-   "tier": "2",
-   "title": "Trump wil militair complex maken van triomfboog in Washington met scherpschutters, drones en munitie",
-   "link": "https://www.volkskrant.nl/buitenland/vs-vallen-opnieuw-vermeende-drugsboot-aan-in-caribisch-gebied~bc835998/",
-   "published": "2026-09-20T02:13:00+00:00",
-   "summary": ""
   },
   {
    "source": "NRK",
@@ -6010,33 +6202,6 @@
    "summary": "Rodion Miroshnik reported the death of a member of a territorial election commission"
   },
   {
-   "source": "TASS",
-   "country": "Russia",
-   "tier": "4",
-   "title": "Slovakian troops not going to fight Russia for those seeking conflict — premier",
-   "link": "https://tass.com/world/2190163",
-   "published": "2026-09-19T23:37:38+00:00",
-   "summary": "Robert Fico said that those interested in provoking a military conflict between NATO and Russia \"must bear the responsibility for such a move\""
-  },
-  {
-   "source": "Evening Standard",
-   "country": "United Kingdom",
-   "tier": "2",
-   "title": "In pictures: Millwall and West Ham fans watch derby amid tight police presence",
-   "link": "https://www.standard.co.uk/news/crime/pictures-millwall-west-ham-fans-face-police-b1297636.html",
-   "published": "2026-09-19T23:18:43+00:00",
-   "summary": "The Met Police stated three arrests were made as a result of live facial recognition technology"
-  },
-  {
-   "source": "TASS",
-   "country": "Russia",
-   "tier": "4",
-   "title": "Russian parliamentary election turnout reaches 44.58% — election authority",
-   "link": "https://tass.com/politics/2190161",
-   "published": "2026-09-19T23:14:09+00:00",
-   "summary": "The information was posted on the Russian Central Election Commission’s website and reflects data as of 11:00 p.m. Saturday GMT"
-  },
-  {
    "source": "ARD Tagesschau",
    "country": "Germany",
    "tier": "2",
@@ -6046,15 +6211,6 @@
    "summary": "Die Huthi-Miliz im Jemen hat die jüngsten Angriffe auf Ziele in Saudi-Arabien für sich reklamiert. Zuvor hatten Anwohner in Riad von Explosionen und einer Rauchsäule nahe dem internationalen Flughafen berichtet."
   },
   {
-   "source": "TASS",
-   "country": "Russia",
-   "tier": "4",
-   "title": "Kiev troops shell DPR 30 times in past day, 18 wounded",
-   "link": "https://tass.com/defense/2190157",
-   "published": "2026-09-19T22:45:25+00:00",
-   "summary": "Three children were among the injured"
-  },
-  {
    "source": "Deutsche Welle",
    "country": "Germany",
    "tier": "2",
@@ -6062,24 +6218,6 @@
    "link": "https://www.dw.com/en/dutch-police-disperse-violent-far-right-protest-in-the-hague/a-79340495?maca=en-rss-en-all-1573-rdf",
    "published": "2026-09-19T22:38:00+00:00",
    "summary": "After violence broke out, Dutch riot police dispersed hundreds of far-right protesters in The Hague. Prime Minister Rob Jetten said that the demonstrators had chanted \"abhorrent\" far-right and antisemitic slogans."
-  },
-  {
-   "source": "Evening Standard",
-   "country": "United Kingdom",
-   "tier": "2",
-   "title": "Two teens jailed for killing boy who wanted to be teacher outside McDonald’s",
-   "link": "https://www.standard.co.uk/news/crime/two-teens-jailed-killing-boy-mcdonald-s-b1297635.html",
-   "published": "2026-09-19T22:08:18+00:00",
-   "summary": "Yeray Sanchez Morales, 17, was attacked by a group of youths outside a McDonalds restaurant"
-  },
-  {
-   "source": "TASS",
-   "country": "Russia",
-   "tier": "4",
-   "title": "Attacks on Russian online vote system involve AI, darknet — official",
-   "link": "https://tass.com/politics/2190155",
-   "published": "2026-09-19T22:02:10+00:00",
-   "summary": "Oleg Artamonov added that no disruptions were detected during the first two days of the vote"
   },
   {
    "source": "The Irish Times",
@@ -6098,15 +6236,6 @@
    "link": "https://www.lalibre.be/sports/cyclisme/2026/09/19/championnats-du-monde-voici-lheure-a-laquelle-remco-evenepoel-demarrera-son-contre-la-montre-DVYLPUP4NFDNTDKLV6YCX77OBI/",
    "published": "2026-09-19T21:42:44+00:00",
    "summary": "Remco Evenepoel s'élancera sur le coup de 20h30 heure belge pour le contre-la-montre. ..."
-  },
-  {
-   "source": "Evening Standard",
-   "country": "United Kingdom",
-   "tier": "2",
-   "title": "Millwall vs West Ham: Six arrests so far as officers get special stop and search powers to stop trouble",
-   "link": "https://www.standard.co.uk/news/london/millwall-fc-west-ham-derby-the-den-police-stop-search-arrests-b1297583.html",
-   "published": "2026-09-19T21:41:59+00:00",
-   "summary": "Hundreds of officers policing first the 'Dockers Derby’ in 14 years"
   },
   {
    "source": "The Irish Times",
@@ -6298,150 +6427,6 @@
    "summary": "Move criticised as an intensifying of US president’s attacks on press freedoms ahead of midterm elections"
   },
   {
-   "source": "L'Obs",
-   "country": "France",
-   "tier": "2",
-   "title": "Elections à Berlin : comment la candidate de la gauche radicale Elif Eralp veut faire barrage à l’AfD",
-   "link": "https://www.nouvelobs.com/politique/20260919.OBS118401/elections-a-berlin-comment-la-candidate-de-la-gauche-radicale-elif-eralp-veut-faire-barrage-a-l-afd.html",
-   "published": "2026-09-19T17:34:40+00:00",
-   "summary": "Dans la capitale allemande, le scrutin régional de dimanche a valeur d’élections municipales. Elif Eralp compte bien être la première personne d’origine turque à devenir maire de la ville-Etat, qui fait figure d’exception dans une Allemagne de l’Est rongée par l’extrême droite. Son cheval de bataille : la baisse des loyers."
-  },
-  {
-   "source": "Expansion",
-   "country": "Spain",
-   "tier": "2",
-   "title": "Llega la nueva era de la guerra controlada con IA",
-   "link": "https://www.expansion.com/economia/financial-times/2026/09/19/6aae9eeee5fdeae26d8b456e.html",
-   "published": "2026-09-19T17:28:02+00:00",
-   "summary": "La guerra en Ucrania acelera la revolución militar con drones controlados por IA. Cambia la estrategia militar global hacia la automatización aunque preocupa delegar las decisiones letales en las máquinas.&nbsp;Leer"
-  },
-  {
-   "source": "The Telegraph",
-   "country": "United Kingdom",
-   "tier": "2",
-   "title": "Spitting row mars feisty Millwall-West Ham clash",
-   "link": "https://www.telegraph.co.uk/football/2026/09/19/millwall-vs-west-ham-live-score-latest-championship-the-den/",
-   "published": "2026-09-19T17:11:38+00:00",
-   "summary": "Spitting row mars feisty Millwall-West Ham clash"
-  },
-  {
-   "source": "Berliner Zeitung",
-   "country": "Germany",
-   "tier": "2",
-   "title": "„Wir haben die Demokratie wieder zum Leben erweckt“: Siegmund beim Wahlkampfabschluss der AfD",
-   "link": "https://www.berliner-zeitung.de/article/wir-haben-die-demokratie-wieder-zum-leben-erweckt-siegmund-beim-wahlkampfabschluss-der-afd-10409925",
-   "published": "2026-09-19T17:09:42+00:00",
-   "summary": "Beim AfD-Wahlkampffinale in Schwerin attackieren Holm und Stargast Siegmund die SPD scharf. Trotz Jubelrufe zeigt sich vor der Wahl ein knappes Rennen: Die SPD schiebt sich in Umfragen knapp vorbei."
-  },
-  {
-   "source": "La Libre",
-   "country": "Belgium",
-   "tier": "2",
-   "title": "\"Je me sentais coupable de ne pas être à la hauteur de ses efforts\" : le \"wellness gap\" brise des relations",
-   "link": "https://www.lalibre.be/lifestyle/magazine/2026/09/19/je-me-sentais-coupable-de-ne-pas-etre-a-la-hauteur-de-ses-efforts-le-wellness-gap-brise-des-relations-NMVOJC3QDVG4BFWXQHM6FNHJVE/",
-   "published": "2026-09-19T16:59:47+00:00",
-   "summary": "La quête éternelle du bien-être pourrait bientôt fragiliser les relations. Entre le partenaire qui fait la fête jusqu’au bout de la nuit et l’autre qui rentre tôt pour être en forme à son cours de sport le lendemain, un nouveau fossé se creuse. Les réseaux sociaux l’ont surnommé le “wellness gap”.  ..."
-  },
-  {
-   "source": "Dagens Nyheter",
-   "country": "Sweden",
-   "tier": "2",
-   "title": "Så försöker Kreml slå ut Ukrainas ekonomi: ”Har momentum nu”",
-   "link": "https://www.dn.se/varlden/sa-forsoker-kreml-sla-ut-ukrainas-ekonomi-har-momentum-nu/",
-   "published": "2026-09-19T16:51:27+00:00",
-   "summary": "Med attacker på järnvägen försöker Ryssland slå ut den sista pulsådern för Ukrainas ekonomi. En ny taktik som Kiev har svårt att försvara sig mot. – De nya jetdrönarna är för snabba, säger militäranalytikern Johan Huovinen."
-  },
-  {
-   "source": "Sky News",
-   "country": "United Kingdom",
-   "tier": "2",
-   "title": "Dozens evacuated from homes due to safety concerns after seaside hotel fire",
-   "link": "https://news.sky.com/story/dozens-moved-from-homes-due-to-safety-concerns-after-folkestone-hotel-fire-as-police-treat-blaze-as-suspicious-13589829",
-   "published": "2026-09-19T16:45:00+00:00",
-   "summary": "Dozens of residents living near a Folkestone hotel hit by a fire have been evacuated due to concerns over the building's safety."
-  },
-  {
-   "source": "Dagens Nyheter",
-   "country": "Sweden",
-   "tier": "2",
-   "title": "Mediebolag efter Trumps bannlysning: ”Strider mot grundlagen”",
-   "link": "https://www.dn.se/varlden/mediebolag-efter-trumps-bannlysning-strider-mot-grundlagen/",
-   "published": "2026-09-19T16:44:47+00:00",
-   "summary": "Mediebolagen CNN och MSNOW protesterar efter att de av president Trump nekats tillträde till Vita huset på lördagen. Beskedet att porta medierna lämnades av Trump i ett inlägg på Truth Social på fredagen, där han anklagade medier för att sprida ”fake news”. ”Beslutet strider mot det första författningstillägget”, skriver CNN i ett uttalande."
-  },
-  {
-   "source": "Sahara Reporters",
-   "country": "Nigeria",
-   "tier": "3",
-   "title": "149 Persons Including Children Have Died In Maiduguri Military Jail In Five Months — Amnesty International",
-   "link": "https://saharareporters.com/2026/09/19/149-persons-including-children-have-died-maiduguri-military-jail-five-months-amnesty",
-   "published": "2026-09-19T16:44:35+00:00",
-   "summary": "149 Persons Including Children Have Died In Maiduguri Military Jail In Five Months — Amnesty International\n\n\n\n                    According to Amnesty International, at least 12 children died at the barracks within one month, while 65 people died there in March 2016 alone."
-  },
-  {
-   "source": "The Irish Times",
-   "country": "Ireland",
-   "tier": "2",
-   "title": "Families forced to choose between eating and staying warm, cost-of-living protest told",
-   "link": "https://www.irishtimes.com/ireland/2026/09/19/people-forced-to-choose-between-feeding-their-children-or-putting-on-the-heat-protest-told/",
-   "published": "2026-09-19T16:41:56+00:00",
-   "summary": "Crippling rents a major theme of Dublin demonstration ahead of October 6th budget"
-  },
-  {
-   "source": "Syria TV",
-   "country": "Syria",
-   "tier": "4",
-   "title": "دخان وألسنة نيران قرب مطار الرياض بعد سماع انفجارات.. واضطراب في حركة الطيران",
-   "link": "https://www.syria.tv/%D8%AF%D8%AE%D8%A7%D9%86-%D9%88%D8%A3%D9%84%D8%B3%D9%86%D8%A9-%D9%86%D9%8A%D8%B1%D8%A7%D9%86-%D9%82%D8%B1%D8%A8-%D9%85%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6-%D8%A8%D8%B9%D8%AF-%D8%B3%D9%85%D8%A7%D8%B9-%D8%A7%D9%86%D9%81%D8%AC%D8%A7%D8%B1%D8%A7%D8%AA-%D9%88%D8%A7%D8%B6%D8%B7%D8%B1%D8%A7%D8%A8-%D9%81%D9%8A-%D8%AD%D8%B1%D9%83%D8%A9-%D8%A7%D9%84%D8%B7%D9%8A%D8%B1%D8%A7%D9%86",
-   "published": "2026-09-19T16:32:37+00:00",
-   "summary": "صورة متداولة عبر مواقع التواصل لألسنة الدخان في مطار الرياض - إكس"
-  },
-  {
-   "source": "La Libre",
-   "country": "Belgium",
-   "tier": "2",
-   "title": "\"Beaucoup de Flamands sont secrètement jaloux de la convialité wallonne\" : Matthias Diependaele assiste aux Fêtes de Wallonie",
-   "link": "https://www.lalibre.be/belgique/politique-belge/2026/09/19/beaucoup-de-flamands-sont-secretement-jaloux-de-la-convialite-wallonne-matthias-diependaele-assiste-aux-fetes-de-wallonie-T2Y5CFIHMFHENAMXPWORKKXTGI/",
-   "published": "2026-09-19T16:31:58+00:00",
-   "summary": "\"Je suis un nationaliste flamand profondément convaincu. Ça reste ma boussole politique. Mais n'ayez crainte: je viens en paix\", a plaisanté le ministre-président flamand Matthias Diependaele (N-VA) samedi après-midi, lors des discours officiels des Fêtes de Wallonie, dont la Flandre est cette année l'invitée d'honneur. ..."
-  },
-  {
-   "source": "Digi24",
-   "country": "Romania",
-   "tier": "2",
-   "title": "Șoșoacă inventează nenorociri la televiziunea rusă: „Politicienii de la putere se duc în munți și opresc apa românilor”",
-   "link": "https://www.digi24.ro/stiri/actualitate/politica/sosoaca-la-televiziunea-rusa-politicienii-de-la-putere-se-duc-in-munti-si-opresc-apa-romanilor-va-puteti-imagina-asta-e-o-nebunie-3955291",
-   "published": "2026-09-19T16:06:28+00:00",
-   "summary": "În ziua în care România s-a confruntat cu unul dintre cele mai violente proteste din ultimii ani, Diana Șoșoacă se plângea la Moscova. Chiar din inima Uniunii Europene, de la Bruxelles, lidera SOS România a intrat în direct la Russia Today, principala televiziune de propagandă a lui Putin. A spus că jandarmii i-au atacat pe parlamentarii SOS și pe ciobani fără un motiv întemeiat."
-  },
-  {
-   "source": "Syria TV",
-   "country": "Syria",
-   "tier": "4",
-   "title": "مقتل عنصر أمن ومتزعم شبكة لتجارة المخدرات خلال اشتباك في حمص",
-   "link": "https://www.syria.tv/%D9%85%D9%82%D8%AA%D9%84-%D8%B9%D9%86%D8%B5%D8%B1-%D8%A3%D9%85%D9%86-%D9%88%D9%85%D8%AA%D8%B2%D8%B9%D9%85-%D8%B4%D8%A8%D9%83%D8%A9-%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%AE%D8%AF%D8%B1%D8%A7%D8%AA-%D8%AE%D9%84%D8%A7%D9%84-%D8%A7%D8%B4%D8%AA%D8%A8%D8%A7%D9%83-%D9%81%D9%8A-%D8%AD%D9%85%D8%B5",
-   "published": "2026-09-19T15:54:30+00:00",
-   "summary": "مقتل عنصر أمن وتحييد متزعم شبكة مخدرات خلال اشتباك في حمص &quot;إدارة مكافحة المخدرات&quot;"
-  },
-  {
-   "source": "Dagens Nyheter",
-   "country": "Sweden",
-   "tier": "2",
-   "title": "Vithaj jagas efter dödliga attacken",
-   "link": "https://www.dn.se/varlden/vithaj-jagas-efter-dodliga-attacken/",
-   "published": "2026-09-19T15:54:23+00:00",
-   "summary": "På fredagen dödades en 63-årig man i en hajattack utanför Australiens västkust. Nu har delstatens fiskeminister utfärdat ett jaktbeslut för att döda vithajen. – Mannen slungades runt, berättar ett vittne."
-  },
-  {
-   "source": "Digi24",
-   "country": "Romania",
-   "tier": "2",
-   "title": "Traficul aerian pe aeroportul din Luxemburg, perturbat de drone",
-   "link": "https://www.digi24.ro/stiri/externe/traficul-aerian-pe-aeroportul-din-luxemburg-perturbat-de-drone-3955293",
-   "published": "2026-09-19T15:48:58+00:00",
-   "summary": "Guvernul din Luxemburg a anunţat sâmbătă că a iniţiat o anchetă, după ce aeroportul internaţional al acestui mic stat vest-european şi-a suspendat temporar zborurile în seara precedentă din cauza detectării unor drone, relatează Reuters."
-  },
-  {
    "source": "Kauno Diena",
    "country": "Lithuania",
    "tier": "2",
@@ -6458,6 +6443,15 @@
    "link": "https://www.ilmessaggero.it/persone/ho_101_anni_lavoro_ancora_fatturo_milioni_non_uso_pc_alberto_bertani-9775108.html",
    "published": null,
    "summary": "Un'azienda nata nel 1941 sotto i bombardamenti della Seconda guerra mondiale, nella zona industriale di Monza. È la storia di Elesa, impresa con un fatturato di 245 milioni..."
+  },
+  {
+   "source": "Il Messaggero",
+   "country": "Italy",
+   "tier": "2",
+   "title": "EuroVolley, a Torino l'Italia è inarrestabile: 3-0 alla Danimarca, gli azzurri volano ai quarti degli Europei",
+   "link": "https://www.ilmessaggero.it/sport/altrisport/eurovolley_italia_danimarca_azzurri_quarti_europei_volley-9775357.html",
+   "published": null,
+   "summary": "Partiti da Napoli, arrivati poi a Modena e ancora a Torino. E davanti ai 7600 del PalaVela di Torino gli azzurri di Fefè De Giorgi trovano anche il velluto di un 3-0 (25-22, 25-16, 25-11)..."
   }
  ]
 }
